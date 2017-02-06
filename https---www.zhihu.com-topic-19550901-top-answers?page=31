@@ -1,0 +1,3429 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js topic-pages">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-ZA-Response-Id" content="0005b862c1524e28">
+<meta http-equiv="X-ZA-Experiment" content="default:None">
+
+<title>前端开发 - 话题精华 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380" />
+
+
+<meta name="description" content="Web 建站技术中，HTML、HTML5、XHTML、CSS、SQL、JavaScript、PHP、ASP.NET、Web Services 是什么？120839个最新问答，点击查看更多>>" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="mobile-agent" content="format=html5;url=https://www.zhihu.com/topic/19550901/top-answers">
+<meta id="znonce" name="znonce" content="cce19b07708a4705b5ee631b523cb4f3">
+
+
+
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-152.87c020b9.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-120.496c913b.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-76.dcf79352.png" sizes="76x76">
+<link rel="apple-touch-icon" href="https://static.zhihu.com/static/revved/img/ios/touch-icon-60.9911cffb.png" sizes="60x60">
+
+
+<link rel="shortcut icon" href="https://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎" />
+<link rel="stylesheet" href="https://static.zhihu.com/static/revved/-/css/z.96020364.css">
+
+
+
+
+
+<!--[if lt IE 9]>
+<script src="https://static.zhihu.com/static/components/respond/dest/respond.min.js"></script>
+<link href="https://static.zhihu.com/static/components/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+<link href="/static/components/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="/static/components/respond/cross-domain/respond.proxy.js"></script>
+<![endif]-->
+<script src="https://static.zhihu.com/static/revved/-/js/instant.14757a4a.js"></script>
+
+<link rel="canonical" href="https://www.zhihu.com/topic/19550901" />
+
+</head>
+
+<body class="zhi ">
+
+
+
+
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+<div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_zhihu_logo">知乎</a>
+
+<div class="top-nav-profile">
+<a href="/people/liu-yuan-39-9" class="zu-top-nav-userinfo ">
+<span class="name">文刀水原</span>
+<img class="Avatar" src="https://pic2.zhimg.com/56a9754ca686ba7d3b1e725c6452ccd1_s.png" srcset="https://pic2.zhimg.com/56a9754ca686ba7d3b1e725c6452ccd1_xs.png 2x" alt="文刀水原" />
+<span id="zh-top-nav-new-pm" class="zg-noti-number zu-top-nav-pm-count"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+<ul class="top-nav-dropdown" id="top-nav-profile-dropdown">
+<li>
+<a href="/people/liu-yuan-39-9">
+<i class="zg-icon zg-icon-dd-home"></i>我的主页
+</a>
+</li>
+
+<li>
+<a href="/inbox">
+<i class="zg-icon zg-icon-dd-pm"></i>私信
+<span id="zh-top-nav-pm-count" class="zu-top-nav-pm-count zg-noti-number"
+style="visibility:hidden" data-count="0">
+
+</span>
+</a>
+</li>
+<li>
+<a href="/settings">
+<i class="zg-icon zg-icon-dd-settings"></i>设置
+</a>
+</li>
+<li>
+<a href="/logout">
+<i class="zg-icon zg-icon-dd-logout"></i>退出
+</a>
+</li>
+</ul>
+
+</div>
+
+
+
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form">
+
+
+
+<input type="hidden" name="type" value="content">
+<label for="q" class="hide-text">知乎搜索</label><input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" maxlength="100" placeholder="搜索你感兴趣的内容...">
+<button type="submit" class="zu-top-search-button"><span class="hide-text">搜索</span><span class="sprite-global-icon-magnifier-dark"></span></button>
+</form>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-nav-home">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home" data-za-c="view_home" data-za-a="visit_home" data-za-l="top_navigation_home">首页</a>
+</li>
+
+
+
+<li class="top-nav-topic-selector zu-top-nav-li current" id="zh-top-nav-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+</li>
+
+<li class="zu-top-nav-li " id="zh-top-nav-explore">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+<li class="top-nav-noti zu-top-nav-li ">
+<a class="zu-top-nav-link" href="javascript:;" id="zh-top-nav-count-wrap" role="button"><span class="mobi-arrow"></span>消息</a>
+</li>
+
+
+
+</ul>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px no-hovercard" id="zh-top-nav-live-new" role="popup" tabindex="0">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container clearfix" tabindex="0">
+<button class="zm-noti7-popup-tab-item message">
+<span class="icon">消息</span>
+</button>
+<button class="zm-noti7-popup-tab-item user">
+<span class="icon">用户</span>
+</button>
+<button class="zm-noti7-popup-tab-item thanks">
+<span class="icon">赞同和感谢</span>
+</button>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content message">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content user" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content thanks" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<span class="noti-spinner-loading"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notification" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main clearfix "  role="main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner">
+
+
+<div itemscope itemtype="https://schema.org/CreativeWork/Topic">
+<div class="topic-avatar" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<div>
+<a class="zm-entry-head-avatar-link" href="/topic/19550901" id="zh-avartar-edit-form">
+<img alt="前端开发" src="https://pic1.zhimg.com/v2-8e66233f5558e741bad3a8c50b9566c8_m.jpg" class="zm-avatar-editor-preview"></a>
+<meta itemprop="image" content="https://pic1.zhimg.com/v2-8e66233f5558e741bad3a8c50b9566c8_l.jpg" />
+</div>
+
+<span class="zm-entry-head-avatar-edit-button">修改</span>
+
+</div>
+<div class="topic-info">
+<div class="topic-name" id="zh-topic-title">
+<h1 class="zm-editable-content" data-disabled="1">前端开发</h1>
+<div class="zm-editable-editor-wrap" style="display:none">
+<input type="text" class="zm-editable-editor-input zg-form-text-input" style="width:150px" />
+<span class="zm-command">
+<a href="javascript:;" name="save" class="zg-btn-blue" style="margin:0 15px;">完成</a>
+<a href="javascript:;" name="cancel" class="zm-command-cancel">取消</a>
+</span>
+</div>
+</div>
+<a href="#" class="meta-item share-button zg-right" name="share"><i class="z-icon-share"></i>分享</a>
+
+
+<div class="zm-topic-topbar">
+<div class="zm-topic-topbar-nav clearfix">
+
+
+<ul class="zm-topic-topbar-nav-list zg-left clearfix">
+
+
+
+
+
+
+<li class="zm-topic-topbar-nav-list-item">
+<a class="zg-link-litblue-normal" href="/topic/19550901/hot">动态</a>
+</li>
+
+
+
+
+
+<li class="zm-topic-topbar-nav-list-item current">
+<span>精华</span>
+</li>
+
+
+
+
+
+<li class="zm-topic-topbar-nav-list-item">
+<a class="zg-link-litblue-normal" href="/topic/19550901/unanswered">等待回答</a>
+</li>
+
+
+
+</ul>
+
+</div>
+
+</div>
+</div>
+<div class="zm-topic-list-container" itemprop="hasPart" itemscope itemtype="http://schema.org/ItemList/QuestionList">
+<div class="zu-top-feed-list" id="zh-topic-top-page-list">
+<meta itemprop="questionCount" content="36909" />
+<meta itemprop="topAnswerCount" content="999" />
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="601" data-type="Answer">
+<link itemprop="url" href="/question/36936671/answer/72581478">
+<meta itemprop="answer-id" content="24454787" />
+<meta itemprop="answer-url-token" content="72581478" />
+<meta itemprop="answerCount" content="37" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/36936671" target="_blank" data-id="6981754" data-za-element-name="Title">
+有没有“拒绝”使用jQuery的人？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/36936671/answer/72581478">
+<!-- <meta itemprop="answer-id" content="24454787">
+<meta itemprop="answer-url-token" content="72581478"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>152</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">152</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ye-lou-jiang"
+target="_blank" href="/people/ye-lou-jiang"
+>液漏酱</a></span><span title="狂气码畜/成都人@上海" class="bio">
+狂气码畜/成都人@上海
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="152" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">152</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6981754" data-action="/answer/content" data-author-name="液漏酱" data-entry-url="/question/36936671/answer/72581478">
+
+<textarea hidden class="content">题主你可以试试&lt;a href=&quot;//link.zhihu.com/?target=http%3A//youmightnotneedjquery.com/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;You Might Not Need jQuery&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，这网站列出了大部分jQuery函数的原生写法，作为字典来查询非常方便。我之前尝试拿掉自己项目&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/ye11ow/missionboard&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;ye11ow/missionboard · GitHub&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;里面的jQuery依赖时就是参考的这个网站。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;https://pic3.zhimg.com/1767b4427204a5dff501878ae45a9f2a_b.png&quot; data-rawwidth=&quot;2476&quot; data-rawheight=&quot;1310&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;2476&quot; data-original=&quot;https://pic3.zhimg.com/1767b4427204a5dff501878ae45a9f2a_r.png&quot;&gt;&lt;br&gt;另外多说几句，我觉得作为学习和练手目的去“拒绝”jQuery还是有点意思的。但出于工程角度，我认为大部分情况没必要强行的去拒绝jQuery，毕竟它的生态圈还是非常强大的（比如我自己的项目，因为用了bootstrap，所以没法完全拿掉jQuery）。而且虽然目前看起来屏蔽DOM细节的这个需求已经被framework或者View解决掉了，但jQuery的utilities，helper，events还是很好用的。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic3.zhimg.com/1767b4427204a5dff501878ae45a9f2a_200x112.png" data-rawwidth="2476" data-rawheight="1310" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic3.zhimg.com/1767b4427204a5dff501878ae45a9f2a_r.png">
+题主你可以试试<a href="//link.zhihu.com/?target=http%3A//youmightnotneedjquery.com/" class=" wrap external" target="_blank" rel="nofollow noreferrer">You Might Not Need jQuery<i class="icon-external"></i></a>，这网站列出了大部分jQuery函数的原生写法，作为字典来查询非常方便。我之前尝试拿掉自己项目<a href="//link.zhihu.com/?target=https%3A//github.com/ye11ow/missionboard" class=" wrap external" target="_blank" rel="nofollow noreferrer">ye11ow/missionboard · GitHub<i class="icon-external"></i></a>里面的jQuery依赖时就是参考的这个网站。 另外多说几句，我觉得作为学习和练手目的去“…
+
+<a href="/question/36936671/answer/72581478" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/36936671/answer/72581478">发布于 2015-11-17</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-6981754"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>17 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="602" data-type="Answer">
+<link itemprop="url" href="/question/35401115/answer/62790286">
+<meta itemprop="answer-id" content="20529730" />
+<meta itemprop="answer-url-token" content="62790286" />
+<meta itemprop="answerCount" content="18" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/35401115" target="_blank" data-id="6367099" data-za-element-name="Title">
+为什么有人说node.js学习成本很低？我觉得node就上手快一些，实际是个大坑啊，是我太菜逼了么？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/35401115/answer/62790286">
+<!-- <meta itemprop="answer-id" content="20529730">
+<meta itemprop="answer-url-token" content="62790286"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>152</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">152</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$chuguixin"
+target="_blank" href="/people/chuguixin"
+>初桂鑫</a></span><span title="短期目标:合格的全栈工程师;长期目标:优秀的架构师。" class="bio">
+短期目标:合格的全栈工程师;长期目标:优…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="152" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">152</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="6367099" data-action="/answer/content" data-author-name="初桂鑫" data-entry-url="/question/35401115/answer/62790286">
+
+<textarea hidden class="content">首先，题主说的学习成本低上手快，我认为是相对正确的，比如：&lt;br&gt;&lt;ol&gt;&lt;li&gt;去github找了个demo，哇塞，都是app.js啊，大量会用jquery绑定事件以及发送异步请求的前端同学瞬间找到了爆棚的亲和感，还是原来的语法，还是原来的味道，你不让我试一把我都想跟你拼命了。&lt;/li&gt;&lt;li&gt;然后，去官网下了一个node.exe，随便找个端口listen一下，不再需要配置，不再需要其它知识，run起来了。就算你是最好的语言，你也要搞一个虚拟机吧，搞好了虚拟机再装个了一个hhvm或者php，然后发现还得装个nginx，nginx还得去了解基本配置，至少用php还是hhvm，cgi是什么，worker_processes等等都得有个基本概念吧。一想很简单啊，可是再想到自己原来只会用jquery绑定事件然后就捉襟见肘见好就收了。&lt;/li&gt;&lt;li&gt;最后，在cmd下，用最快的手速写下node app.js，然后用最大的力量敲击了回车，切换到浏览器，打开了127.0.0.1:xxxx，看到了烟花般绚烂的hello world，这一刻忽然发现自己“上手了”，感叹“学习成本低”，后端也不难啊。&lt;/li&gt;&lt;/ol&gt;请各位玻璃心的同学，尤其是我大前端同学们，不要看到这里，不要已经准备好若干吨的脏话准备在留言板挥洒。因为，这也是我曾经学习的路线和想当然，直到很长时间后，我发现我太幼稚了。&lt;br&gt;说说我看到的一些现象吧，说明大量前端同学在缺乏一些基本的计算机理论知识的情况下，去做node开发的问题，包括但不限于：&lt;br&gt;&lt;ol&gt;&lt;li&gt;拿内存当缓存。到处是var obj = {}，就开始用obj存数据，哪天内存就爆炸了。&lt;/li&gt;&lt;li&gt;基本的多进程，不懂；基本的线上进程维护，没有意识。多核利用都没有，更不用说分布式了，一个error出一个进程挂，一个进程挂一个服务挂。&lt;/li&gt;&lt;li&gt;代码质量没有精益求精。以异步为例，习惯了browser的开发，习惯了绑定事件，缺少对promise等优秀模式的使用。&lt;/li&gt;&lt;li&gt;没有打log的意识。&lt;/li&gt;&lt;li&gt;对并行没有任何概念。从来没有用过async.js等控制流程。&lt;/li&gt;&lt;li&gt;对基本概念不懂。stream是什么，buffer是什么，cluster又是什么等等。&lt;/li&gt;&lt;li&gt;对ES新规范跟进不够。node不像浏览器，我们要顾及兼容性太多，es5、es6为我们提供了那么多优秀的api、语法、数据结构。去重数组用Set吧，Map应该是Map不要再用{}了，Array.prototype上那么多优秀的方法，你为什么还是for循环遍地开发。&lt;/li&gt;&lt;li&gt;还有好多，不敢再说。。。&lt;/li&gt;&lt;/ol&gt;所以，我认为楼主说自己是菜逼（我也觉得自己是菜逼），我想原因多半是因为看到了自己已有的前端知识直接转做node开发的不足，发现有大量理论知识和实战知识的缺失导致无法支撑自己的后端之路吧。&lt;br&gt;最近答主自己也是内心颇为起伏，赠送两个建议给题主和读者，也顺便自勉：&lt;br&gt;&lt;ol&gt;&lt;li&gt;提高自身的计算机基本素养，比如最基本的理论知识。&lt;/li&gt;&lt;li&gt;不管外界对技术的评价，一定要持之以恒地追求极致。相信终有一天能看出差别。&lt;/li&gt;&lt;/ol&gt;以上，共勉。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+首先，题主说的学习成本低上手快，我认为是相对正确的，比如： 去github找了个demo，哇塞，都是app.js啊，大量会用jquery绑定事件以及发送异步请求的前端同学瞬间找到了爆棚的亲和感，还是原来的语法，还是原来的味道，你不让我试一把我都想跟你拼命了。然…
+
+<a href="/question/35401115/answer/62790286" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2015-09-08" target="_blank" href="/question/35401115/answer/62790286">编辑于 2015-09-08</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-6367099"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>14 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="603" data-type="Answer">
+<link itemprop="url" href="/question/28696660/answer/41842641">
+<meta itemprop="answer-id" content="12129664" />
+<meta itemprop="answer-url-token" content="41842641" />
+<meta itemprop="answerCount" content="12" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/28696660" target="_blank" data-id="3661637" data-za-element-name="Title">
+哪些JS框架和库最有发展前途？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/28696660/answer/41842641">
+<!-- <meta itemprop="answer-id" content="12129664">
+<meta itemprop="answer-url-token" content="41842641"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>151</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">151</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+<span class="name">匿名用户</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="151" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">151</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="3661637" data-action="/answer/content" data-author-name="匿名用户" data-entry-url="/question/28696660/answer/41842641">
+
+<textarea hidden class="content">发展前途什么的不了解，但框架（framework）和库 （library）是截然不同的两个概念，下面简单区分一下。&lt;br&gt;&lt;br&gt;什么是&lt;b&gt;库&lt;/b&gt;呢？比如，你觉得用原生的 AJAX 太麻烦，不仅需要写 XMLHttpRequest, onreadystatechange 这种冗长的名称，为了兼容旧版 IE 甚至还要考虑先判断 window.XMLHttpRequest 是否定义。这样即便是完成最简单的功能也需要十多行代码。于是有人把这些麻烦的代码预先帮你写好，提供了一套方便的接口&lt;b&gt;供你调用&lt;/b&gt;（比如 jQuery 中一个 ajax  函数就能完成几乎所有日常功能），就出现了一个库。总之，库包含一些能够完成特定或特定类型的明确任务的可供重用的代码。你告库做你想做的事，库就会帮你做好，你不在乎库是怎么做的，库不知道你做这件事的意图。&lt;br&gt;&lt;br&gt;&lt;b&gt;框架&lt;/b&gt;和库的最重要区别是其&lt;b&gt;控制反转&lt;/b&gt;（inversion of control）的特点。简单地说，整个程序的&lt;b&gt;控制流程&lt;/b&gt;不是你，而是框架。引用 Stack Overflow 上的精辟的&lt;a href=&quot;//link.zhihu.com/?target=http%3A//stackoverflow.com/a/233765&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;一个答案&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;：&lt;br&gt;&lt;blockquote&gt;&lt;p&gt;You call Library.&lt;/p&gt;&lt;p&gt;Framework calls you.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;框架就像整个程序的骨架，拥有&lt;b&gt;默认&lt;/b&gt;的&lt;b&gt;有意义&lt;/b&gt;的行为，或者说知道在特定的情况下应该做什么&lt;b&gt;样&lt;/b&gt;的事情。你可以通过特定的方式（比如类的继承）&lt;b&gt;替代&lt;/b&gt;这些默认行为，从而以这个框架为基础进行&lt;b&gt;扩展&lt;/b&gt;。在适当的时候，框架则会调用你的代码。这样整个程序就实现了你想实现的功能。&lt;/p&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+发展前途什么的不了解，但框架（framework）和库 （library）是截然不同的两个概念，下面简单区分一下。 什么是<b>库</b>呢？比如，你觉得用原生的 AJAX 太麻烦，不仅需要写 XMLHttpRequest, onreadystatechange 这种冗长的名称，为了兼容旧版 IE 甚至还要考虑先判…
+
+<a href="/question/28696660/answer/41842641" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/28696660/answer/41842641">发布于 2015-03-12</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-3661637"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>8 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic2.zhimg.com/aadd7b895_m.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="604" data-type="Answer">
+<link itemprop="url" href="/question/26532621/answer/33144979">
+<meta itemprop="answer-id" content="8645092" />
+<meta itemprop="answer-url-token" content="33144979" />
+<meta itemprop="answerCount" content="11" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/26532621" target="_blank" data-id="2795993" data-za-element-name="Title">
+前端 ，后端 关于数据交互的问题?
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/26532621/answer/33144979">
+<!-- <meta itemprop="answer-id" content="8645092">
+<meta itemprop="answer-url-token" content="33144979"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>152</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">152</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$nimoJs"
+target="_blank" href="/people/nimoJs"
+>Nimo True</a></span><span title="https://GitHub.com/nimojs" class="bio">
+<a href="//link.zhihu.com/?target=https%3A//GitHub.com/nimojs" class=" external" target="_blank" rel="nofollow noreferrer"><span class="invisible">https://</span><span class="visible">GitHub.com/nimojs</span><span class="invisible"></span><i class="icon-external"></i></a>
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="152" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">152</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="2795993" data-action="/answer/content" data-author-name="Nimo True" data-entry-url="/question/26532621/answer/33144979">
+
+<textarea hidden class="content">&lt;b&gt;重新修改答案后整理了一份《前后端数据交互方法&lt;/b&gt;&lt;b&gt;》&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;在此介绍几种常用的前后端数据交互方法，并给出使用建议。以提高前后端协同开发的效率。  &lt;br&gt;&lt;b&gt;目录:&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. HTML赋值&lt;br&gt;2. JS赋值&lt;br&gt;3. script填充JSON&lt;br&gt;4. AJAX获取JSON&lt;br&gt;5. WebSocket实时传输数据&lt;br&gt;6. 总结&lt;br&gt;&lt;br&gt;&lt;b&gt;1. HTML赋值&lt;/b&gt;&lt;br&gt;输出到 Element 的 value 或 data-name &lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;input type=&quot;hidden&quot; value=&quot;&amp;lt;?php echo $user_avatar;?&amp;gt;&quot; /&amp;gt;
+&amp;lt;div data-value=&quot;&amp;lt;?php echo $user_avatar;?&amp;gt;&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;渲染结果&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-cfm&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hidden&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://avatars1.githubusercontent.com/u/3949015?v=3&amp;amp;s=40&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-avatar=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://avatars1.githubusercontent.com/u/3949015?v=3&amp;amp;s=40&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;使用 JS 获取&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;$('input').val();
+// http://jquery.bootcss.com/jQuery.data/
+$('div').data('avatar');
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;优点：&lt;/b&gt;&lt;br&gt;不占用全局变量，由 JS 自由获取。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;使用建议：&lt;br&gt;&lt;/b&gt;&lt;br&gt;适合传递简单数据，也非常适合多个简单数据与 Element 绑定关系。&lt;br&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;nimojs &amp;lt;span data-userid=&quot;1&quot; &amp;gt;删除&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;nimo22 &amp;lt;span data-userid=&quot;2&quot; &amp;gt;删除&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;nimo33 &amp;lt;span data-userid=&quot;3&quot; &amp;gt;删除&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;nimo44 &amp;lt;span data-userid=&quot;4&quot; &amp;gt;删除&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;nimo55 &amp;lt;span data-userid=&quot;5&quot; &amp;gt;删除&amp;lt;/span&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;script&amp;gt;
+$('span').on('click',function(){
+    $.post('/ajax/remove/',$(this).data('userid'),function(data){
+        // ...
+    })
+})
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;2. JS赋值&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;将数据填充到 `&amp;lt;script&amp;gt;` 的 JavaScript 变量声明中。&lt;br&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&amp;gt;
+var user_avatar = &quot;&amp;lt;?php echo $user_avatar;?&amp;gt;&quot;;
+// 渲染结果
+// var user_avatar = &quot;https://avatars1.githubusercontent.com/u/3949015?v=3&amp;amp;s=40&quot;;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;或使用 Smarty 后端模板引擎：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;script&amp;gt;
+var user_avatar = &quot;{$user_avatar}&quot;;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;优点：&lt;/b&gt;&lt;br&gt;传递数据非常方便。前端直接调用 user_avatar 变量使用数据。&lt;br&gt;&lt;br&gt;&lt;b&gt;缺点：&lt;/b&gt;&lt;br&gt;1. 为了传递一个字符串数据占用了全局变量 `user_avatar`，当有很多数据需要传输时则会占用很多全局变量。&lt;br&gt;2. 如果返回数据存在换行将会导致JS报错&lt;br&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;// 渲染结果有换行符
+var user_id = &quot;
+
+https://avatars1.githubusercontent.com/u/3949015?v=3&amp;amp;s=40&quot;;
+// Uncaught SyntaxError: Unexpected token ILLEGAL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;优化：&lt;/b&gt;&lt;br&gt;可以通过指向的某一个变量存放所有后端返回的内容，最小程度占用全局变量。例：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;// PHP 代码
+var SERVER_DATA = {
+    username: {$username},
+    userid: {$userid},
+    title: {$title}
+}
+// 渲染结果
+var SERVER_DATA = {
+    username: &quot;NimoChu&quot;,
+    userid: 1,
+    title: 'F2E'
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;使用建议：&lt;/b&gt;&lt;br&gt;需要最快速度传递数据给 JS 并十分确定此数据稳定时，使用此方式。数据格式复杂的建议使用script填充JSON 或AJAX获取JSON 方法。&lt;br&gt;&lt;br&gt;&lt;b&gt;3. script填充JSON&lt;/b&gt;&lt;br&gt;&lt;b&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.w3school.com.cn/json/json_syntax.asp&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;JSON 语法&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;填充 JSON 数据到 `&amp;lt;script&amp;gt;` 标签中，前端通过 DOM 获取 JSON字符串并解析成对象。&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;script type=&quot;text/template&quot; id=&quot;data&quot;&amp;gt;{&quot;username&quot;:&quot;nimojs&quot;,&quot;userid&quot;:1}&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;
+var data = JSON.parse($('#data').html());
+//{username:&quot;nimojs&quot;,userid:1}
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;b&gt;优点：&lt;/b&gt;&lt;br&gt;页面加载完成后就可以获取到数据。不占用全局变量，可传递大量数据集合。&lt;br&gt;&lt;br&gt;&lt;b&gt;缺点：&lt;/b&gt;&lt;br&gt;数据量特别大时会导致页面初次加载变慢。变慢并不只是文件大小导致的，也因为服务器查询数据并返回合集是需要时间，可使用AJAX获取JSON完成按需加载和加载等待。&lt;br&gt;&lt;br&gt;&lt;b&gt;使用建议：&lt;/b&gt;&lt;br&gt;适合传递在DOM加载完成时就需要用到的大量数据集合。例如：前端控制页面渲染，后端将JSON数据源填充到 `&amp;lt;script&amp;gt;` 由前端使用 JavaScript模板引擎 进行页面渲染。&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.gbtags.com/technology/javascript/20120917-javascript-template-engine-chooser/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;如何选择Javascript模板引擎（javascript template engine)？&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;4.  AJAX获取JSON&lt;/b&gt;&lt;br&gt;使用 AJAX 获取JSON数据&lt;br&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;span id=&quot;showdata&quot;&amp;gt;查看资料&amp;lt;/span&amp;gt;
+&amp;lt;div style=&quot;display:none;&quot; id=&quot;box&quot;&amp;gt;
+    &amp;lt;h2&amp;gt;用户信息&amp;lt;/h2&amp;gt;
+    &amp;lt;p id=&quot;info&quot;&amp;gt;&amp;lt;img src=&quot;loading.gif&quot; /&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;$('#showdata').on('click',function(){
+    $('#box').show();
+    $.getJSON('/ajax/userdata/',function(oData){
+        // oData = {&quot;username&quot;:&quot;nimojs&quot;,&quot;userid&quot;:1}
+        $('#info').html('用户名：' + oData.username + '&amp;lt;br&amp;gt;用户ID：' + oData.userid);
+    })
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;这是一个通过AJAX 获取用户资料的示例。流程如下：&lt;br&gt;1. 页面上只显示查看资料&lt;br&gt;2. 用户点击查看资料&lt;br&gt;3. 显示用户信息和 loading 图片&lt;br&gt;4. 向服务器发送获取用户信息的AJAX请求&lt;br&gt;5. 服务器返回JSON字符串，$.getJSON  自动将返回的 JSON字符串转换为对象&lt;br&gt;6. 填充内容到 `&amp;lt;p id=&quot;info&quot;&amp;gt;`&lt;br&gt;&lt;br&gt;&lt;b&gt;优点：&lt;/b&gt;&lt;br&gt;不占用全局变量和 DOM 节点，可以自由控制获取数据的触发条件（页面加载完成&lt;br&gt;时、用户点击查看资料时或用户点击某个按钮时）。当开始获取数据时可使用 loading 图片占位提示用户数据正在读取。防止页面加载所有数据导致的页面加载缓慢。&lt;br&gt;&lt;br&gt;&lt;b&gt;缺点：&lt;/b&gt;&lt;br&gt;会产生额外的HTTP请求。不能在DOM加载完成以后立即获取，需要发送请求-接收响应。&lt;br&gt;&lt;br&gt;&lt;b&gt;使用建议：&lt;/b&gt;&lt;br&gt;适合加载非主要信息、设定触发条件（用户点击查看资料时），并提供友好的数据读取等待提示。&lt;br&gt;&lt;br&gt;&lt;b&gt;5. WebSocket实时传输数据&lt;/b&gt;&lt;br&gt;如果将 AJAX请求和响应比喻成给服务器发短信和等待服务器回复短信，而 WebSocket 就如同和服务器打电话。&lt;br&gt;&lt;br&gt;此处不对WebSocket做过多介绍，附上参考资料：&lt;br&gt;1. &lt;a href=&quot;//link.zhihu.com/?target=http%3A//zh.wikipedia.org/wiki/WebSocket&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;WebSocket&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;2. &lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.ibm.com/developerworks/cn/web/1112_huangxa_websocket/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;使用 HTML5 WebSocket 构建实时 Web 应用&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;3. &lt;a href=&quot;//link.zhihu.com/?target=http%3A//www.web-tinker.com/article/20372.html%3Futm_source%3Dtuicool&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Ajax vs WebSocket&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;6. 总结&lt;/b&gt;&lt;br&gt;每种情况都有每种情况的用处，没有绝对正确的方法。&lt;b&gt;根据实际情况灵活的选择获取数据方式&lt;/b&gt;。&lt;br&gt;&lt;br&gt;若作者显示不是Nimo（被转载了），请访问Github原文进行讨论：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/nimojs/blog/issues/13&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;前后端数据交互方法 · Issue #13 · nimojs/blog · GitHub&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<b>重新修改答案后整理了一份《前后端数据交互方法</b><b>》</b> 在此介绍几种常用的前后端数据交互方法，并给出使用建议。以提高前后端协同开发的效率。 <b>目录:</b> 1. HTML赋值 2. JS赋值 3. script填充JSON 4. AJAX获取JSON 5. WebSocket实时传输数据 6. 总结 <b>1. HTML赋值</b> …
+
+<a href="/question/26532621/answer/33144979" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2014-11-09" target="_blank" href="/question/26532621/answer/33144979">编辑于 2015-03-09</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-2795993"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>10 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="605" data-type="Answer">
+<link itemprop="url" href="/question/43620648/answer/97765339">
+<meta itemprop="answer-id" content="34553743" />
+<meta itemprop="answer-url-token" content="97765339" />
+<meta itemprop="answerCount" content="3" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/43620648" target="_blank" data-id="9657710" data-za-element-name="Title">
+Vue 2.0 可能有哪些激动人心的新特性？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/43620648/answer/97765339">
+<!-- <meta itemprop="answer-id" content="34553743">
+<meta itemprop="answer-url-token" content="97765339"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>151</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">151</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$evanyou"
+target="_blank" href="/people/evanyou"
+>尤雨溪</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/evanyou#hilightbadge" target="_blank">前端开发、JavaScript、前端工程师话题优秀回答者</a></span>
+
+
+
+<span title="不会搞艺术的程序员不是好设计师" class="bio">
+…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="151" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">151</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="9657710" data-action="/answer/content" data-author-name="尤雨溪" data-entry-url="/question/43620648/answer/97765339">
+
+<textarea hidden class="content">专栏文章已发布：&lt;a href=&quot;https://zhuanlan.zhihu.com/p/20814761&quot; class=&quot;internal&quot;&gt;Announcing Vue.js 2.0 - Code, Design &amp;amp; Things in between - 知乎专栏&lt;/a&gt;&lt;br&gt;&lt;br&gt;另外勾股已经放了篇源码分析文章: &lt;a href=&quot;//link.zhihu.com/?target=http%3A//jiongks.name/blog/code-review-for-vue-next/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Code Review for Vue 2.0 Preview&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+专栏文章已发布：<a href="https://zhuanlan.zhihu.com/p/20814761" class="internal">Announcing Vue.js 2.0 - Code, Design &amp; Things in between - 知乎专栏</a> 另外勾股已经放了篇源码分析文章: <a href="//link.zhihu.com/?target=http%3A//jiongks.name/blog/code-review-for-vue-next/" class=" wrap external" target="_blank" rel="nofollow noreferrer">Code Review for Vue 2.0 Preview<i class="icon-external"></i></a>
+
+<a href="/question/43620648/answer/97765339" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/43620648/answer/97765339">发布于 2016-04-28</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-9657710"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>20 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="606" data-type="Answer">
+<link itemprop="url" href="/question/34210214/answer/93590294">
+<meta itemprop="answer-id" content="32876600" />
+<meta itemprop="answer-url-token" content="93590294" />
+<meta itemprop="answerCount" content="85" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/34210214" target="_blank" data-id="5890624" data-za-element-name="Title">
+什么是闭包？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/34210214/answer/93590294">
+<!-- <meta itemprop="answer-id" content="32876600">
+<meta itemprop="answer-url-token" content="93590294"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>151</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">151</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$stein.cun"
+target="_blank" href="/people/stein.cun"
+>寸志</a></span><span title="不同凡想，心成伟事。" class="bio">
+不同凡想，心成伟事。
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="151" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">151</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="5890624" data-action="/answer/content" data-author-name="寸志" data-entry-url="/question/34210214/answer/93590294">
+
+<textarea hidden class="content">JavaScript 闭包的本质源自两点，词法作用域和函数当作值传递。&lt;br&gt;&lt;br&gt;词法作用域，就是，按照代码书写时的样子，内部函数可以访问函数外面的变量。引擎通过数据结构和算法表示一个函数，使得在代码解释执行时按照词法作用域的规则，可以访问外围的变量，这些变量就登记在相应的数据结构中。&lt;br&gt;&lt;br&gt;函数当作值传递，即所谓的first class对象。就是可以把函数当作一个值来赋值，当作参数传给别的函数，也可以把函数当作一个值 return。一个函数被当作值返回时，也就相当于返回了一个通道，这个通道可以访问这个函数词法作用域中的变量，即函数所需要的数据结构保存了下来，数据结构中的值在外层函数执行时创建，外层函数执行完毕时理因销毁，但由于内部函数作为值返回出去，这些值得以保存下来。而且无法直接访问，必须通过返回的函数。这也就是私有性。&lt;br&gt;&lt;br&gt;本来执行过程和词法作用域是封闭的，这种返回的函数就好比是一个虫洞，开了挂。也就是 &lt;a href=&quot;//www.zhihu.com/people/c85b513fb617ceca494b0731ab244951&quot; data-hash=&quot;c85b513fb617ceca494b0731ab244951&quot; class=&quot;member_mention&quot; data-tip=&quot;p$b$c85b513fb617ceca494b0731ab244951&quot; data-hovercard=&quot;p$b$c85b513fb617ceca494b0731ab244951&quot;&gt;@秋月凉&lt;/a&gt; 答案中轮子哥那句话的意思。&lt;br&gt;&lt;br&gt;显然，闭包的形成很简单，在执行过程完毕后，返回函数，或者将函数得以保留下来，即形成闭包。实际上在 JavaScript 代码中闭包不要太常见。&lt;br&gt;&lt;br&gt;函数作为第一等对象之后 JavaScript 灵活得不要不要的。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+JavaScript 闭包的本质源自两点，词法作用域和函数当作值传递。 词法作用域，就是，按照代码书写时的样子，内部函数可以访问函数外面的变量。引擎通过数据结构和算法表示一个函数，使得在代码解释执行时按照词法作用域的规则，可以访问外围的变量，这些变量…
+
+<a href="/question/34210214/answer/93590294" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-04-04" target="_blank" href="/question/34210214/answer/93590294">编辑于 2016-04-05</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-5890624"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>15 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="607" data-type="Answer">
+<link itemprop="url" href="/question/30597893/answer/48710205">
+<meta itemprop="answer-id" content="14882542" />
+<meta itemprop="answer-url-token" content="48710205" />
+<meta itemprop="answerCount" content="18" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/30597893" target="_blank" data-id="4421554" data-za-element-name="Title">
+前端框架可以直接使用，为何需要nodejs/gulp等工具?
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/30597893/answer/48710205">
+<!-- <meta itemprop="answer-id" content="14882542">
+<meta itemprop="answer-url-token" content="48710205"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>151</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">151</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$jasinyip"
+target="_blank" href="/people/jasinyip"
+>Jasin Yip</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/jasinyip#hilightbadge" target="_blank">前端开发、JavaScript话题优秀回答者</a></span>
+
+
+
+<span title="前端工程师的自我修养 Live 欢迎参加！" class="bio">
+前端工程师的…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="151" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">151</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="4421554" data-action="/answer/content" data-author-name="Jasin Yip" data-entry-url="/question/30597893/answer/48710205">
+
+<textarea hidden class="content">谢邀。&lt;br&gt;&lt;br&gt;你说的 Bootstrap 等都是 CSS 框架，确实只需要写相应的 class。然而，Node、Gulp 并不是同一类型的东西，也就是说并不是 CSS 框架。&lt;br&gt;&lt;br&gt;我先来讲 Gulp：&lt;br&gt;&lt;br&gt;假设有这么一个 HTML：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;当你写 CSS 的时候，你可能会这样写：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.a&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.b&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.a&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.b&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.c&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;你会发现，这样老是要把父级元素写出来，超烦！于是我们有了 Less、Sass 等 CSS 预处理器。&lt;br&gt;&lt;br&gt;现在，用我比较喜欢的 Less，那么上面那段代码就变成：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.a {
+    background: blue;
+    .b {
+        background: red;
+        .c { background: black; }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;（备注：知乎居然不支持 Less 语法高亮，凑合着看吧~）&lt;br&gt;&lt;br&gt;然后，我们用 less 命令，那么这段 Less 代码就会被编译成上面那样的 CSS 了。这样嵌套地写，是不是爽很多？&lt;br&gt;&lt;br&gt;但是问题来了，当 Less 文件超多，我们总不能老是自己手动去执行 less 命令吧？那么 Gulp 是时候现身了。&lt;br&gt;&lt;br&gt;（中间省略具体怎么写 Gulp 任务，请自行学习 Gulp）&lt;br&gt;&lt;br&gt;于是我们只需要在命令行里执行 gulp 命令，那么 Gulp 就会根据我们写的 Gulp 任务来自动处理你的所有 Less 文件了。我们还可以使用 gulp watch 命令，使得每当我们修改 Less 文件时它就会自动帮你再编译一次，这样你就可以直接在浏览器里刷新看到新的效果了。&lt;br&gt;&lt;br&gt;然后是 Node.js：&lt;br&gt;Node.js 你可以理解为一种用 Javascript 去写后端程序的框架，正是因为它是使用 ECMAScript 语法的，也就是说它跟 Javascript 的语法是一样的，所以它对于前端工程师来说是友好的，前端工程师不需要再去掌握另一种比如 PHP、Java 这样的语法。&lt;br&gt;&lt;br&gt;通过 Node.js，前端工程师可以自己在后端架设一层专门用来渲染页面的 UI 层，不需要去依赖后端，后端只管提供接口和服务就好，这就是大前端。&lt;br&gt;&lt;br&gt;暂时只讲这么多吧~</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+谢邀。 你说的 Bootstrap 等都是 CSS 框架，确实只需要写相应的 class。然而，Node、Gulp 并不是同一类型的东西，也就是说并不是 CSS 框架。 我先来讲 Gulp： 假设有这么一个 HTML： &lt;div class="a"&gt;
+ &lt;div class="b"&gt;
+ &lt;div class="c"&gt;&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/di…
+
+<a href="/question/30597893/answer/48710205" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2015-05-23" target="_blank" href="/question/30597893/answer/48710205">编辑于 2015-05-23</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-4421554"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>16 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic1.zhimg.com/v2-ad701a842af05bd117e58684d771802c_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=48710205" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="608" data-type="Answer">
+<link itemprop="url" href="/question/29263567/answer/51048869">
+<meta itemprop="answer-id" content="15820229" />
+<meta itemprop="answer-url-token" content="51048869" />
+<meta itemprop="answerCount" content="60" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/29263567" target="_blank" data-id="3888346" data-za-element-name="Title">
+在你的前端路上，印象最深的事儿是什么？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/29263567/answer/51048869">
+<!-- <meta itemprop="answer-id" content="15820229">
+<meta itemprop="answer-url-token" content="51048869"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>151</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">151</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+<span class="name">匿名用户</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="151" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">151</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="3888346" data-action="/answer/content" data-author-name="匿名用户" data-entry-url="/question/29263567/answer/51048869">
+
+<textarea hidden class="content">额…挺想前女友的，但是分手的时候把啥都给删光了，连她的QQ号我也给忘了。&lt;br&gt;&lt;br&gt;所以只好去看我们QQ秀的合影。&lt;br&gt;&lt;br&gt;额…出于职业习惯，对其昵称对应的超链接右键审查元素，&lt;br&gt;出现了类似?id=&lt;a href=&quot;tel:1234578&quot; class=&quot; wrap external&quot;&gt;1234578&lt;/a&gt;的东西，我突然意识到那是她QQ号。&lt;br&gt;&lt;br&gt;&lt;b&gt;后来我们复合了。&lt;/b&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+额…挺想前女友的，但是分手的时候把啥都给删光了，连她的QQ号我也给忘了。 所以只好去看我们QQ秀的合影。 额…出于职业习惯，对其昵称对应的超链接右键审查元素， 出现了类似?id=<a href="tel:1234578" class=" wrap external">1234578</a>的东西，我突然意识到那是她QQ号。 <b>后来我们复合了。</b>
+
+<a href="/question/29263567/answer/51048869" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2015-06-12" target="_blank" href="/question/29263567/answer/51048869">编辑于 2015-06-12</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-3888346"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>39 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="609" data-type="Answer">
+<link itemprop="url" href="/question/50879588/answer/123243956">
+<meta itemprop="answer-id" content="44799208" />
+<meta itemprop="answer-url-token" content="123243956" />
+<meta itemprop="answerCount" content="147" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/50879588" target="_blank" data-id="12569219" data-za-element-name="Title">
+一纸文凭对于程序员有多重要？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/50879588/answer/123243956">
+<!-- <meta itemprop="answer-id" content="44799208">
+<meta itemprop="answer-url-token" content="123243956"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>173</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">173</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$gao-tian-50"
+target="_blank" href="/people/gao-tian-50"
+>高天</a></span><span title="加州码农一只" class="bio">
+加州码农一只
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="173" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">173</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="12569219" data-action="/answer/content" data-author-name="高天" data-entry-url="/question/50879588/answer/123243956">
+
+<textarea hidden class="content">文凭的主要作用，是帮助你在茫茫人海中被公司挑出来。你的竞争对手越多，你的同水平的人越多，文凭就越有用。等到你水平逐渐上升，在某个领域有着独到的见解，成为某个领域大牛之后，就没人在乎你的文凭了。&lt;br&gt;&lt;br&gt;为什么？&lt;br&gt;&lt;br&gt;因为当你泯然众人的时候，不光是你面临找工作的问题，公司也面临找员工的问题啊！最典型的情况就是校招期间，每年毕业多少计算机系的大学生？多了不说，几十万总得有的吧？一个公司一年招多少人？即便是BAT这样的超级巨头，招个几千了不起了吧？那在这几十万人里找几千，怎么找？一个一个去试技术？不可能的啊。一定是把最有希望过的学生用最简单的方式挑选出来，然后尽量缩小面试人数，缩到刚好面这么多人能招满，最好。&lt;br&gt;&lt;br&gt;我们都知道，面试一个人是需要成本的，所以给面试的人数越少，对公司越有利。同样，筛选简历，乃至去校招，也是有成本的啊！一万份简历，哪怕一分钟看完一份，也要日夜不停地看一个礼拜。这时候怎么办？先把招到人可能性最小的那批用5秒的时间扔掉。怎么在5秒内判断一个人有多大可能性进公司？看学历呗。事实上，如果用软件筛简历，这是个最高毫秒量级的操作，极大地降低了人工费用。&lt;br&gt;&lt;br&gt;那你说，学历低的人有没有水平够的？绝对有。可是有找出这批在学历低的人里水平够的人的成本，公司找好几个学历高的人里水平够的了。&lt;br&gt;&lt;br&gt;但是，当你越来越牛之后，形势就变得不一样了。&lt;br&gt;&lt;br&gt;当你的竞争对手越来越少，在公司面前摆着的就是更清晰的选择。当他们进行10选2，甚至100选10的时候，他们有足够的成本对每个人进行深入的研究和分析，让他们去展示工作中真正需要的内容，而非粗暴地简单分类。&lt;br&gt;&lt;br&gt;打个比喻，有两片玉米地，一片施肥好土壤好阳光好，长出来的都是好玉米。另一片没怎么拾掇，自然生长，里面玉米水平参差不齐。那对于第一波采摘的农民来说，如果两片玉米地不能都拿回家，肯定是先奔着好的玉米地捡。但是到了后来，玉米分好类，卖给群众的时候，群众自己家就打算做五个玉米，肯定是在分好类的小玉米堆里精挑细选，他才不会管你是哪个玉米地出来的。&lt;br&gt;&lt;br&gt;所以啊，当你觉得文凭是个问题，说明你水平还不够。或者反过来说，当你水平还不够的时候，文凭它就是个问题！</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+文凭的主要作用，是帮助你在茫茫人海中被公司挑出来。你的竞争对手越多，你的同水平的人越多，文凭就越有用。等到你水平逐渐上升，在某个领域有着独到的见解，成为某个领域大牛之后，就没人在乎你的文凭了。 为什么？ 因为当你泯然众人的时候，不光是你面临…
+
+<a href="/question/50879588/answer/123243956" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/50879588/answer/123243956">发布于 2016-09-23</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-12569219"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>24 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="2">
+<meta name="disableCopyAvatar" content="https://pic4.zhimg.com/f2ac5a72598dc2d73ffebe89c10e14ef_s.png">
+
+<span class="zg-bull">&bull;</span>
+
+
+<a href="/copyright/apply?answer=123243956" target="_blank" class="meta-item copyright">申请转载</a>
+
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="610" data-type="Answer">
+<link itemprop="url" href="/question/40975678/answer/89139701">
+<meta itemprop="answer-id" content="31090829" />
+<meta itemprop="answer-url-token" content="89139701" />
+<meta itemprop="answerCount" content="18" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/40975678" target="_blank" data-id="8597550" data-za-element-name="Title">
+Angular2 相比 Vue 有什么优势？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/40975678/answer/89139701">
+<!-- <meta itemprop="answer-id" content="31090829">
+<meta itemprop="answer-url-token" content="89139701"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>150</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">150</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$evanyou"
+target="_blank" href="/people/evanyou"
+>尤雨溪</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/evanyou#hilightbadge" target="_blank">前端开发、JavaScript、前端工程师话题优秀回答者</a></span>
+
+
+
+<span title="不会搞艺术的程序员不是好设计师" class="bio">
+…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="150" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">150</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="8597550" data-action="/answer/content" data-author-name="尤雨溪" data-entry-url="/question/40975678/answer/89139701">
+
+<textarea hidden class="content">&lt;a href=&quot;https://www.zhihu.com/question/40975678/answer/89127169&quot; class=&quot;internal&quot;&gt;Angular2 相比 Vue 有什么优势？ - 匿名用户的回答&lt;/a&gt; 还是比较中肯的，但我也可以稍微分析一下：&lt;br&gt;&lt;br&gt;1. 个人 vs. 大公司，这里直接复制黏贴我在另一个问题下的评论：&lt;br&gt;&lt;br&gt;这是个常见的担忧。我其实有时候觉得一个项目人多未必就好，你如果去 Vue/React/Angular/Ember 的 GitHub issues 转转，你会发现 Vue 的未关闭 issues/bugs 是最少的，而且开过 issue 的人都知道 Vue 的 bug 通常都会在一两天之内就 fix （对数据感兴趣的可以看看 &lt;a href=&quot;//link.zhihu.com/?target=http%3A//issuestats.com/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Issue Stats&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;）。大团队的开发效率真的高吗？看看 Angular 2 和 Aurelia 开发了这么久都迟迟处在 beta 状态，你真的对他们的开发效率有信心？我也参与 Meteor 的维护，深知一个庞大的项目在多人参与之后反而对于 issue 的定位、分配、修正速度有多大的影响，正因为 Vue 是我一个人的项目，我对任意一段代码都了如指掌，所以我修 bug 的效率是多人协作项目根本无法比较的。&lt;br&gt;&lt;br&gt;另一方面，敢不敢依赖个人项目其实完全取决于团队对风险的容忍度，以及觉得项目的开发者靠不靠谱。你看 Laravel / Express / Backbone / Babel / CoffeeScript / Browserify / Webpack / Less / PostCSS / jspm 其实都是一人主导的项目，大家不照样用得风生水起？所以非要拿这个说事儿其实也不全面的。(update: 现已全职开发 Vue)&lt;br&gt;&lt;br&gt;2. 第二点没错。不过 ng2 + NativeScript 到底好不好用还是个未知数，另一方面可以看看 Weex 到底怎么样。(update: Weex 已支持用 Vue 2 作为 runtime，合作进行中)&lt;br&gt;&lt;br&gt;3. 所谓原生的服务端渲染，只要我写一个不就行了吗 -.- 虽然 Vue 的核心实现和 DOM 强耦合，但也不是没有解决办法。(update: Vue 2 已支持)&lt;br&gt;&lt;br&gt;4. 不觉得多语言算是个优势，最多算是个特点吧。见仁见智了。其实用 TypeScript 写 Vue 的人也不少（DefinitelyTyped 上有 Vue 和 vue-router 的 d.ts），Dart 么... 呵呵。另外 *.vue 文件支持用第三方预处理器写模板和 CSS，ng2 就做不到，这一点我反倒觉得是 Vue 优势。(update: Vue 2 全家桶自带官方 typings)&lt;br&gt;&lt;br&gt;5. Vue 在最佳实践下需要手动使用 setter 的场景其实非常少，这和对象复杂不复杂没有关系，只和你有没有正确地声明初始数据有关系。ng2 虽然有 zone.js，但是对于&lt;b&gt;不是从 ng2 所控制的范围内触发的变动&lt;/b&gt;，ng2 依然不能检测到。换句话说，数据操作必须是从 ng2 自身的方法或是事件侦听函数中开始，才能享受 zone.js 的便利。相比之下在 Vue 中，响应化以后的数据可以独立于 vm 之外被单独任意操作，这就使得和第三方数据源的整合可以和组件解耦。(update: ng2 Zone.js 是个坑 &lt;a href=&quot;https://www.zhihu.com/question/53022579/answer/133298778?group_id=787208004360470528#comment-192481566&quot; class=&quot;internal&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;https://www.&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;zhihu.com/question/5302&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;2579/answer/133298778?group_id=787208004360470528#comment-192481566&lt;/span&gt;&lt;span class=&quot;ellipsis&quot;&gt;&lt;/span&gt;&lt;/a&gt;)&lt;br&gt;&lt;br&gt;6. 性能这一点直接下这样的结论并不全面。不妨给几个跑分链接看看？在我看到的跑分数据里 ng2 除了超大量表单 (10k+ cells) 的首屏渲染有明显优势外，其他情况下也就是比 Vue 快那么一丢丢而已。另外大部分跑分的场景都是不全面的，尤其是脏检查的短板（大量 watcher + 小量数据热更新）很少有在跑分里出现，而这恰恰是 Vue 的长处。最后，别忘了 ng2 那 500kb minified 的大小。(update: 基于 &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/krausest/js-framework-benchmark&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;krausest/js-framework-benchmark&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; Vue 2 确实比 ng2 性能略优）&lt;br&gt;&lt;br&gt;好像偏题了，如果说 ng2 真的对于 Vue 有什么优势的话，可能还是上面所提到的第二点吧。&lt;br&gt;&lt;br&gt;最后，这种比较其实没啥大意义，如果你对服务器渲染/原生移动有硬需求，那还不如上 React。抛开硬需求之外，那就是看哪个更符合你/你的团队的开发习惯，更能提升效率，这个你靠别人给你指点显然没用，自己试试就知道。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<a href="https://www.zhihu.com/question/40975678/answer/89127169" class="internal">Angular2 相比 Vue 有什么优势？ - 匿名用户的回答</a> 还是比较中肯的，但我也可以稍微分析一下： 1. 个人 vs. 大公司，这里直接复制黏贴我在另一个问题下的评论： 这是个常见的担忧。我其实有时候觉得一个项目人多未必就好，你如果去 Vue/React/Angular/Ember…
+
+<a href="/question/40975678/answer/89139701" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-03-04" target="_blank" href="/question/40975678/answer/89139701">编辑于 2016-11-30</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-8597550"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>50 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="611" data-type="Answer">
+<link itemprop="url" href="/question/20976405/answer/16779402">
+<meta itemprop="answer-id" content="1844260" />
+<meta itemprop="answer-url-token" content="16779402" />
+<meta itemprop="answerCount" content="16" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/20976405" target="_blank" data-id="571078" data-za-element-name="Title">
+什么是响应式布局设计？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/20976405/answer/16779402">
+<!-- <meta itemprop="answer-id" content="1844260">
+<meta itemprop="answer-url-token" content="16779402"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>150</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">150</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$jjying"
+target="_blank" href="/people/jjying"
+>JJ Ying</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/jjying#hilightbadge" target="_blank">用户界面设计话题优秀回答者</a></span>
+
+
+
+<span title="Anyway.FM 设计杂谈主播" class="bio">
+Anyway.FM 设计杂谈主播
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="150" data-async-voters="1">
+
+
+<span class="answer-tag">
+<span class="text">收录于 </span>
+
+
+<span class="text">编辑推荐</span>
+
+
+
+</span>
+
+
+<span class="zg-bull text">•</span><span class="voters text"><a href="#" class="more text"><span class="js-voteCount">150</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="571078" data-action="/answer/content" data-author-name="JJ Ying" data-entry-url="/question/20976405/answer/16779402">
+
+<textarea hidden class="content">很久很久很久以前，每个人都只有一件衣服（ Website ），不管你有钱没钱大家每天都只穿这一件。&lt;br&gt;&lt;br&gt;后来有人发明了舞会（移动互联网），大家都争先恐后地想要参加，于是一个做「开发」的裁缝忽悠人们说进舞会最好订做一件专门的礼服（ Mobile Site ），大家想想也对，上班和出去哈皮都穿同一件衣服多无聊啊，舞会就要有舞会的样子。于是乎只要有点闲钱的人都做了礼服，他和原来那件叫做 Website 的衣服是完全不一样的，&lt;b&gt;面子不一样，里子也不一样&lt;/b&gt;。&lt;br&gt;&lt;br&gt;后来舞会的种类越来越多了，很多人被迫做了好多好多件礼服，于是又有一个叫做「前端」的裁缝站出来说你们每年要新做那么多衣服，多费钱啊，而且一出门钥匙啊皮夹子啊名片都要在不同衣服里换来换去多麻烦。你看，我们新发明了一个手艺叫做「Responsive Design」，只要把你原来那件衣服稍微那么一改，以后去哪个舞会都可以只穿这一件衣服，衣服的&lt;b&gt;里子永远都差不多，但面子可以按照要求自适应不同的舞会&lt;/b&gt;。&lt;br&gt;&lt;br&gt;于是所有人都开始换上这种响应式的衣服了。。。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+很久很久很久以前，每个人都只有一件衣服（ Website ），不管你有钱没钱大家每天都只穿这一件。 后来有人发明了舞会（移动互联网），大家都争先恐后地想要参加，于是一个做「开发」的裁缝忽悠人们说进舞会最好订做一件专门的礼服（ Mobile Site ），大家想…
+
+<a href="/question/20976405/answer/16779402" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2013-04-22" target="_blank" href="/question/20976405/answer/16779402">编辑于 2013-06-25</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-571078"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>16 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="612" data-type="Answer">
+<link itemprop="url" href="/question/31640769/answer/52907935">
+<meta itemprop="answer-id" content="16568150" />
+<meta itemprop="answer-url-token" content="52907935" />
+<meta itemprop="answerCount" content="62" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/31640769" target="_blank" data-id="4855525" data-za-element-name="Title">
+post 相比get 有很多优点，为什么现在的HTTP通信中大多数请求还是使用get？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/31640769/answer/52907935">
+<!-- <meta itemprop="answer-id" content="16568150">
+<meta itemprop="answer-url-token" content="52907935"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>150</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">150</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$he-shi-jun"
+target="_blank" href="/people/he-shi-jun"
+>贺师俊</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/he-shi-jun#hilightbadge" target="_blank">JavaScript、前端开发、CSS话题优秀回答者</a></span>
+
+
+
+<span title="Web开发者" class="bio">
+Web开发者
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="150" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">150</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="4855525" data-action="/answer/content" data-author-name="贺师俊" data-entry-url="/question/31640769/answer/52907935">
+
+<textarea hidden class="content">我又来打以轮子为首胡乱答题的人的脸来了。&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;然而事实上唯一的区别就是request头里面用的是post这四个字符还是get这三个字符&lt;br&gt;&lt;/blockquote&gt;然而事实上post和get的区别大了去了，比如post可以有body这么显然的区别。&lt;br&gt;&lt;br&gt;另外字符是POST和GET，你一个写C艹和C井的人跟写Basic的一样大小写不敏感难道不羞愧吗？&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;很多答案都在嘲笑说post不比get更安全，可是你们都怎么审题的？问题里哪里说post比get安全了？问题日志里也表明提问者并没有这样讲。问题只写了“post相比get有很多优点”，你们怎么是脑补出来题主的意思是“post比get更安全”的？&lt;br&gt;&lt;br&gt;即使你估计题主的误解是来自于“post比get更安全”这样不严谨的描述，也得先提出这个假设是不是？否则就叫稻草人攻击。&lt;br&gt;&lt;br&gt;而且该用post的地方用了get当然会降低安全性，如更容易遭到CSRF攻击。&lt;br&gt;&lt;br&gt;比较扯的是，有些人答案里已经提到了错误使用会导致安全问题，但在回答开头却这样写：&lt;br&gt;&lt;blockquote&gt;说&lt;b&gt;POST比GET安全&lt;/b&gt;的我想给她一个这样的表情：&lt;br&gt;&lt;img src=&quot;https://pic1.zhimg.com/12e2d917bd8ac476ca44ad5ec40c980c_b.jpg&quot; data-rawwidth=&quot;116&quot; data-rawheight=&quot;100&quot; class=&quot;content_image&quot; width=&quot;116&quot;&gt;&lt;/blockquote&gt;&lt;br&gt;相比较题主的误解，我认为这种奇怪的傲慢态度才是值得被“滚”。&lt;br&gt;&lt;br&gt;&lt;br&gt;还有这样的回答&lt;br&gt;&lt;blockquote&gt;有个毛线的区别啊……只是约定俗成而已，GET 用来请求无副作用资源，POST用来提交 forms，由于有副作用，一般习惯上会返回一个 redirect——仅此而已。&lt;/blockquote&gt;省略号后面是在啪啪打省略号前面的脸吗？还是说语文都烂到这个程度了？你如果想告诉题主“get和post在xxx方面是没有区别的”，就不能把句子写全吗？&lt;br&gt;&lt;br&gt;&lt;br&gt;还有这样的回答&lt;br&gt;&lt;blockquote&gt;get比post省一个字符。&lt;br&gt;&lt;/blockquote&gt;又一个抖机灵以及大小写不敏感的逗逼。&lt;br&gt;&lt;br&gt;&lt;br&gt;看不下去了。现在答案怎么都这样的质量？&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;总算 &lt;a data-hash=&quot;553f4cc73de0b5796dd8db11aadc48f6&quot; href=&quot;//www.zhihu.com/people/553f4cc73de0b5796dd8db11aadc48f6&quot; class=&quot;member_mention&quot; data-hovercard=&quot;p$b$553f4cc73de0b5796dd8db11aadc48f6&quot;&gt;@罗志宇&lt;/a&gt; 有一个正经的答案，可以点个赞。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+我又来打以轮子为首胡乱答题的人的脸来了。 然而事实上唯一的区别就是request头里面用的是post这四个字符还是get这三个字符 然而事实上post和get的区别大了去了，比如post可以有body这么显然的区别。 另外字符是POST和GET，你一个写C艹和C井的人跟写Basic的…
+
+<a href="/question/31640769/answer/52907935" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/31640769/answer/52907935">发布于 2015-06-27</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-4855525"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>33 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="613" data-type="Answer">
+<link itemprop="url" href="/question/23512853/answer/27523986">
+<meta itemprop="answer-id" content="6347117" />
+<meta itemprop="answer-url-token" content="27523986" />
+<meta itemprop="answerCount" content="49" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/23512853" target="_blank" data-id="1586469" data-za-element-name="Title">
+如何评价淘宝 UED 的 Midway Framework 前后端分离？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/23512853/answer/27523986">
+<!-- <meta itemprop="answer-id" content="6347117">
+<meta itemprop="answer-url-token" content="27523986"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>150</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">150</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$sharpmaster"
+target="_blank" href="/people/sharpmaster"
+>徐飞</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/sharpmaster#hilightbadge" target="_blank">前端开发、JavaScript、前端工程师话题优秀回答者</a></span>
+
+
+
+<span title="三流程序员，二流架构师" class="bio">
+…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="150" data-async-voters="1">
+
+
+<span class="answer-tag">
+<span class="text">收录于 </span>
+
+
+<span class="text">编辑推荐</span>
+
+
+
+</span>
+
+
+<span class="zg-bull text">•</span><span class="voters text"><a href="#" class="more text"><span class="js-voteCount">150</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="1586469" data-action="/answer/content" data-author-name="徐飞" data-entry-url="/question/23512853/answer/27523986">
+
+<textarea hidden class="content">早上看到贺老出马，也忍不住写了一篇来谈一下苏宁这样的公司对这方面的考虑。&lt;br&gt;&lt;br&gt;
+近两年来，我一直在思考如何改进前端体系的开发模式，这里面最基础的一点就是前后端的分离。谈到前后端分离，也有一个误区，认为仅仅是以浏览器作分界，把这两部分的代码分离出来。但其实是，做这件事情的本意，是要解决开发模式的问题，也就是要分离前后端开发人员的职责。&lt;br&gt;&lt;br&gt;
+针对不同类型的Web产品，这个分离方式是有所不同的。对于Web应用，因为它跟服务端的交互基本就是AJAX或者WebSocket接口，所以这个分离是天然的，整个前端基本都是静态HTML模板，JavaScript模块，以及CSS和相关静态资源，但是对于网购产品这样的形态，它的做法就不一样。&lt;br&gt;&lt;br&gt;## 展示占主要部分的产品&lt;br&gt;&lt;br&gt;
+网购产品的展示需求很重要，图片等资源载入非常多，但相对的操作却很少，基本只有搜索商品，加购物车，结算这样的环节。传统这样的产品，多半是这么个工作流程：&lt;br&gt;&lt;br&gt;
+交互出高保真图，前端去切图，生成静态HTML加展示效果，然后，注意，他不是自己接着往下做，而是交给另外一群开发人员，把它转换成服务端模板，比如freemarker或者velocity之类，或者是smarty，为什么要这么做呢？因为这类产品讲究一个首屏优化，是首屏而不是首页，这就意味着对于首屏来说，经过的环节应当尽可能少，比如说，就不能先载入客户端模板，再AJAX一个数据，然后去渲染一下。这么做的性能肯定是不如服务端把HTML生成好，然后一次请求加载的。&lt;br&gt;&lt;br&gt;
+这个过程肯定是有一些问题的，比如说，如果开发人员B在套模板的过程中，发现原先的静态HTML部分有问题，应该怎么办？大家知道，一个对HTML和CSS都很熟悉，同时又可以写业务逻辑的前端开发人员是很稀缺的，所以，多数情况下，这两边的技能是不同的，如果是简单的页面问题，这个开发人员可能自己也就解决了，如果他解决不了，怎么办？&lt;br&gt;&lt;br&gt;
+如果B自己不改，把他已经搞成服务端模板的代码返回给前端人员A，A也没法下手，因为已经是服务端模板，A手里没有环境，改了之后不知道对不对，不能预览。那么，B把问题告诉A，A修改他的原始版本，然后再拿给B又怎样呢？这时候B又麻烦了，他要对比两次修改的部分，把自己前一阵的修改合并进去。&lt;br&gt;&lt;br&gt;
+所以，不管怎么搞，这里面都很折腾。&lt;br&gt;&lt;br&gt;
+Midway这个产品，他想要解决什么问题呢？既然说前端人员没法预览模板的原因是，后端在使用服务端模板，那么，我能不能找一种两边都可用的模板，你能在服务端渲染，我也能在客户端预览？服务端跟浏览器端同时都能运行的语言是什么？只有JavaScript。&lt;br&gt;&lt;br&gt;
+所以，大家就往nodejs里面去发掘了，一个普通的JavaScript模板库，它在浏览器端也可以渲染，在nodejs端也可以输出成HTML，这时候，那些原来负责整合模板和逻辑的人员改用nodejs，是不是就解决这问题了？&lt;br&gt;&lt;br&gt;
+想象一下这个场景多么美好：前端来决定某个模板是服务端渲染还是客户端渲染，当首屏的时候，就在nodejs里面生成HTML，不是首屏的时候，就AJAX过来在浏览器端渲染展示。&lt;br&gt;&lt;br&gt;
+从技术方案上看，这么做很好了，工程上又带来另外一些问题，那就是对熟练JavaScript开发人员的需求量大增。对阿里这样的公司来说，前端有大几百人，别的公司只能仰望，所以他当然可以放手一搞，但对我们苏宁这样，前端人数不大的，就麻烦了。如果我们也引入这样的方案，就面临把很大一部分Java开发人员转化成JavaScript开发人员这么一个问题，这个事情短期内肯定是无法解决的，所以反过来会增加前端这边的压力。所以暂时还用不了阿里这样的方案，只能努力先提高人员水平再看情况。&lt;br&gt;&lt;br&gt;
+服务端引入nodejs还有别的优势，比如说请求合并等等，这个也可以用其他方式变通解决，比如加一个专门的跟现有后端同构的Web服务器，在那边干这些事。&lt;br&gt;&lt;br&gt;## 展示和业务逻辑较均衡的产品&lt;br&gt;&lt;br&gt;
+对于另外一些场景，也有类似的问题，比如支付产品，展示相对没那么重，但是又算不上Web应用，它面临另外一种情况的前后端分离。这种场景下，前端的出静态HTML和DOM操作类的JavaScript，业务开发人员负责写后端，还有另外一部分业务逻辑的JS。&lt;br&gt;&lt;br&gt;
+这里的问题是什么呢？是jQuery式代码造成的协作问题。比如说：&lt;br&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;$(&quot;.okBtn&quot;).click(function() {
+  $.ajax(url, data)
+    .success(function(result) {
+      $(&quot;someArea&quot;).html(_.template(&quot;tpl&quot;, result));
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+因为前端人员的稀缺，所以他不可能帮你把业务逻辑写出来，所以说，这里面$.ajax往里的部分，要业务人员自己写。然后，数据得到之后，又要去处理界面部分。&lt;br&gt;&lt;br&gt;
+很多场景下，处理界面远不是这么搞个模板放上去就完事的，所以业务开发人员感到很烦闷，为了这么一点小问题，反复去找前端的人来搞，很麻烦，自己搞又特别花时间，所以都很苦闷。&lt;br&gt;&lt;br&gt;
+这同样是一种前后端的分离，只是这个分界线不在浏览器，而在于：是否写业务逻辑。对付这种场景，解决办法就是加强JavaScript代码的规划。现在流行那么多在前端做MV*的框架，不考虑Angular这类太重量级的，来看看Backbone这样的，它到底解决了什么问题？&lt;br&gt;&lt;br&gt;
+很多人说，Backbone虽然小，但根本不解决问题。这句话有一定道理，但前提条件是你自己的JavaScript代码分层已经做得很好了。如果做得不好，它就可以协助你解决分层的问题。&lt;br&gt;&lt;br&gt;
+刚才那段代码，它的问题在哪里呢，在于职责不清晰。一个函数只能做一件事，这是共识，但由于回调等方式，所以不经意就破坏了函数的单一性、完整性。我们试试来拆开它。&lt;br&gt;&lt;br&gt;
+对于一个后端开发人员来说，他为什么常常害怕写前端代码？是因为JavaScript语言吗？其实不是，我们用来写业务逻辑的时候，只会使用JavaScript一个很小的子集，对于这个子集来说，它并不存在多大的学习困难，最麻烦的地方在于DOM、BOM等东西，对于一个后端开发人员来说，如果要求他在掌握服务端代码编写的同时，还要去学这些，那真是有些不容易，所以，我们来给他省点事。&lt;br&gt;&lt;br&gt;
+现在我们的出发点是，把这段代码拆给两个不同的人写，一个人操作DOM，另外一个人只写逻辑，绝对不操作DOM。前面这个代码拆给前端维护，后面这个拆给业务开发人员。&lt;br&gt;&lt;br&gt;
+最老圡的方式：&lt;br&gt;&lt;br&gt;
+a.js&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;$(&quot;.okBtn&quot;).click(function() {
+    b1(data);
+});
+
+function a1(result) {
+    $(&quot;someArea&quot;).html(_.template(&quot;tpl&quot;, result));
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+b.js&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;function b1(data) {
+    $.ajax(url, data)
+        .success(a1);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+现在大家是不是相安无事了？&lt;br&gt;&lt;br&gt;
+如果这么做的话，AB双方要做很多约定，也就是说，这个过程仍然是一个螺旋链。比如说，A先写点击事件的绑定，然后想起来这里要调用一个请求，就去找B写b1方法。B在写b1的时候，又想到他要调用一个界面展示方法a1，然后又来找A写，来回也挺折腾。&lt;br&gt;&lt;br&gt;
+况且，有这么一天，A在另外一个地方也想调用b1了，但是由于b1的回调已经写死了，比较蠢的办法就是在a1里面再判断，这是什么东西点击造成的，然后分别调用不同的回调。如果情况复杂，那这个代码写出来真是没法看。&lt;br&gt;&lt;br&gt;
+如下：&lt;br&gt;&lt;br&gt;
+a.js&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;var type = 0;
+$(&quot;.okBtn&quot;).click(function() {
+    type = 1;
+    b1(data);
+});
+
+$(&quot;.okBtn1&quot;).click(function() {
+    type = 2;
+    b1(data);
+});
+
+function a1(result) {
+    if (type1) {
+        $(&quot;someArea&quot;).html(_.template(&quot;tpl&quot;, result));
+    }
+    else if (type2) {
+        // ...
+    }
+    type = 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+b.js&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;function b1(data) {
+    $.ajax(url, data)
+        .success(a1);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+稍微好一些的办法是，在b1中，直接返回这个请求的promise，这样可以由调用方决定到底该干什么。&lt;br&gt;&lt;br&gt;
+如下：&lt;br&gt;
+a.js&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;$(&quot;.okBtn&quot;).click(function() {
+    b1(data).success(function(result) {
+        $(&quot;someArea&quot;).html(_.template(&quot;tpl&quot;, result));
+    });
+});
+
+$(&quot;.okBtn1&quot;).click(function() {
+    b1(data).success(function(result) {
+        // ...
+    });
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+b.js&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;function b1(data) {
+    return  $.ajax(url, data);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+如果要对返回数据作统一处理，也可以很容易地在b1中，用promise重新封装了返回出来，只不过这样在a.js里面，直接调用的就不是success，而是then了。&lt;br&gt;&lt;br&gt;
+注意到这样的代码还有问题，比如说大量的全局函数，不模块化，容易冲突。此外，没有一个地方可以缓存一些共享数据，比如说这么一个场景：&lt;br&gt;&lt;br&gt;
+界面上两个块M和N，其中，M初始载入并加载数据，N在初始的时候不载入，而是在某个按钮点击的时候载入，而M和N中各有一个列表，数据来源于同一个服务端请求。&lt;br&gt;&lt;br&gt;
+现在就有个问题，当N载入的时候，它的数据怎么来？比较老土的方式，肯定是载入N的时候，同时也再去请求一下数据，然后渲染到N上。&lt;br&gt;&lt;br&gt;
+从一个角度看，如果说不重新请求，N的这个数据应当从哪里来？从另外一个角度看，如果重新请求了，发现数据跟之前的产生了变更，是否要同步给M，怎么同步给它？&lt;br&gt;&lt;br&gt;
+我们看看类似Backbone这样的框架，它能提供怎样的机制呢？或者如果我们不用它，怎么自己把这个分层封装得更好一些？&lt;br&gt;&lt;br&gt;
+首先，是建立一个数据模型，在它上面添加数据的缓存：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;define(&quot;model&quot;, [], function() {
+    var Model = {
+        data: null,
+        queryData : function(param, fromCache) {
+            var defer = q.defer();
+
+            if (fromCache || this.data) {
+                defer.resolve(this.data);
+            }
+            else {
+                var self = this;
+                this.ajax(url, param).success(function(result){
+                    self.data = result;
+                    defer.resolve(result);
+                });
+            }
+
+            return defer.promise;
+        }
+    };
+
+    return Model;
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;
+这么一来，我们在模型上作了数据的缓存，如果调用的时候加fromCache参数，就从缓存读取，否则就请求新的。为了在两种情况下，调用方接口能保持一致，把整个函数封装成promise，以便接着调用。这里的模型定义成单例了，假定是全局唯一的，可以根据需要调整成可实例化的。&lt;br&gt;&lt;br&gt;
+这个时候，视图层就要封装DOM和事件的关联关系：&lt;br&gt;&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;define(&quot;view&quot;, [&quot;model&quot;], function(Model) {
+    function View(element) {
+        this.element = element;
+
+        this.element.selector(&quot;.okBtn&quot;).click(function() {
+            var self = this;
+            var fromCache = true;
+            Model.queryData({}, false).then(function(result) {
+                self.renderData(result);
+            });
+        });
+    }
+
+    View.prototype = {
+        renderData: function(data) {
+            this.element.selector(&quot;someArea&quot;).html(_.template(&quot;tpl&quot;, result));
+        }
+    };
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;
+这个时候，多个视图实例的情况下，数据也能够较好地利用。&lt;br&gt;&lt;br&gt;这样，前端写这个View，后端写Model，可以作这么个分工。&lt;br&gt;&lt;br&gt;
+这个只是很简陋的方式，在复杂场景下还有很多不足，在这里先不展开了。更复杂的场景也就是类似Web应用那种方式，稍后专门写一篇来展开。&lt;br&gt;&lt;br&gt;## 小结&lt;br&gt;&lt;br&gt;
+我们再来回顾前后端分离所要解决的问题，是分离前端和业务开发人员的职责，这个方案怎么定，是应当随着团队状况来确定的。比如阿里前端厉害，人多势众，他的前端就要往后推，去占领中间层。我们苏宁这样的公司，前端比较薄弱，只能在很多场景下，让出中间层，否则战线铺太广只能处处被动。&lt;br&gt;&lt;br&gt;
+同一个中途岛，在不同的形势下，占还是不占，是很考验前端架构师的一个问题。&lt;br&gt;&lt;br&gt;对阿里的这种实践，我们会持续围观，寻找并创造合适的出手时机。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+早上看到贺老出马，也忍不住写了一篇来谈一下苏宁这样的公司对这方面的考虑。 
+近两年来，我一直在思考如何改进前端体系的开发模式，这里面最基础的一点就是前后端的分离。谈到前后端分离，也有一个误区，认为仅仅是以浏览器作分界，把这两部分的代码分离出…
+
+<a href="/question/23512853/answer/27523986" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2014-07-03" target="_blank" href="/question/23512853/answer/27523986">编辑于 2014-07-03</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-1586469"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>37 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="614" data-type="Answer">
+<link itemprop="url" href="/question/49646794/answer/117360328">
+<meta itemprop="answer-id" content="42429065" />
+<meta itemprop="answer-url-token" content="117360328" />
+<meta itemprop="answerCount" content="8" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/49646794" target="_blank" data-id="12075282" data-za-element-name="Title">
+为什么互联网的新人没项目做，很难找到工作？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/49646794/answer/117360328">
+<!-- <meta itemprop="answer-id" content="42429065">
+<meta itemprop="answer-url-token" content="117360328"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>149</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">149</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$zhuo-jia-13"
+target="_blank" href="/people/zhuo-jia-13"
+>卓嘉</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="149" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">149</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="12075282" data-action="/answer/content" data-author-name="卓嘉" data-entry-url="/question/49646794/answer/117360328">
+
+<textarea hidden class="content">转自我另外一个答案&lt;br&gt;链接：&lt;a href=&quot;https://www.zhihu.com/question/32262867/answer/116981728&quot; class=&quot;internal&quot;&gt;一个毕业生可以从客户端重构可以学习到什么？ - 卓嘉的回答&lt;/a&gt;&lt;br&gt;&lt;br&gt;－－－－－－－－－－－－－－－－－－－－－－－&lt;br&gt;&lt;br&gt;&lt;b&gt;前言&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;这个问题是我入职前提的，都没有人看。。。经历了一年，我来自问自答吧，天天看知乎上轮子哥各种高的不要不要的代码经验，总感觉自己这点本领，实在不值一提。。。。。但是总需要有土鳖存在才能体现高手的价值，希望这个文章能帮到日后♂必成大器的初学者。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;文章分为两个部分&lt;/p&gt;&lt;ol&gt;&lt;li&gt;个人成长经历: 给不知道如何下手的人一个简单的参考&lt;/li&gt;&lt;li&gt;一年内学习到的技能列表: 附赠了相关知识点总结的Blog，希望有一定作用帮助理解&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;我个人的经历是从前端写到了后台，目前基本掌握了一定的自学能力，自我感觉已经在程序员的职业生涯里入了门。。也可能自我感觉过于良好，其实还是土鳖。。。&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;箴言&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;编程的学习分为三个阶段：&lt;/p&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;工具的学习&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;实战能力的学习 &lt;/strong&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;创新的自我学习&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;其中工具的学习是最难的也是最简单的 难在学习时自我水平有限，简单在只要肯学。。唯手熟尔。。&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;b&gt;前端(2015.08-2016.02)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;广义上的前端目前分为iOS、Android、HTML5+JS＋CSS，如同提问一样，我当时是进入了iOS客户端，客户端主力都去调去了重构，所以一上来我就接到了生产环境的需求，开始与产品对接。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;个人成长经历&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;在客户端的半年里，总体来讲学会了以下知识点，其中1-3算是打基础，十分重要！！&lt;/p&gt;&lt;ol&gt;&lt;li&gt;养成良好的代码格式和注释习惯&lt;/li&gt;&lt;li&gt;学会给函数起一个好的名字&lt;/li&gt;&lt;li&gt;理解指针和内存相关概念&lt;/li&gt;&lt;li&gt;学习MVC概念，以及实战前端如何和接口协同工作&lt;/li&gt;&lt;li&gt;学会使用Git和Cocoapods等辅助工具&lt;/li&gt;&lt;li&gt;学会MarkDown以及写Blog总结&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;首先，在打基础阶段，最好能有一位老同事言传身教，不停的监督，可以让你避免很多不好的习惯，当时有一个大姐姐同事帮我纠正代码编写习惯对我帮助很大&lt;/p&gt;&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/d7077e8fa0b28186b225061dfd3c2941_b.png&quot; data-rawwidth=&quot;1332&quot; data-rawheight=&quot;1358&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;1332&quot; data-original=&quot;https://pic2.zhimg.com/d7077e8fa0b28186b225061dfd3c2941_r.png&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;起个好的函数名，写个好的注释，规范代码格式，以及亲身了解内存中指针和对象的基本概念(而不是大学教科书上的概念)，这些都需要一个有耐心的指导人。&lt;/p&gt;&lt;br&gt;&lt;p&gt;其次，在写代码的同事，要学会多思考设计模式，开始谁都不懂什么叫设计模式，所以要先理解MVC这种经典的设计模式，不要被什么MVVM之类的迷惑，还没整明白MVC就去学习所谓更加流行的设计模式反而本末倒置。&lt;/p&gt;&lt;br&gt;&lt;p&gt;对于我来讲比较幸运的是，组长本人是个思维很发散的人，不太相信书本上的东西，给我说了很多他本人在设计模式上的想法，并且鼓励我去实现。所以说我就利用下班和周末的时间对于自己的第一个独立模块重写了3遍，才亲身体会了什么叫MVC，对于后期学习MVVM以及尝试自己的一些想法打下了基础。&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/02/14/%25E8%25AE%25BE%25E8%25AE%25A1%25E6%25A8%25A1%25E5%25BC%258F%25E7%259A%2584%25E6%2580%259D%25E8%2580%2583MVC/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;从大姐姐同事那里学到的MVC基本概念&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/02/14/%25E8%25AE%25BE%25E8%25AE%25A1%25E6%25A8%25A1%25E5%25BC%258F%25E7%259A%2584%25E6%2580%259D%25E8%2580%2583MVVM/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;自学的MVVM&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/02/14/%25E8%25AE%25BE%25E8%25AE%25A1%25E6%25A8%25A1%25E5%25BC%258F%25E7%259A%2584%25E6%2580%259D%25E8%2580%2583%25E5%25B1%2580%25E9%2583%25A8%25E5%258D%2595%25E4%25BE%258B/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;在组长的建议下尝试自己的设计模式&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;但是这里是老同事提出想法，我去实现，凭我自己当时的编程经验，是很难提出什么合理的设计方法的，毕竟经验才是创新的基础。&lt;/p&gt;&lt;br&gt;&lt;p&gt;最后，编程的入门首先是工具的学习，只有牢牢掌握了工具，才能在理论突破时不会因为工具熟练度不够而影响效率，所以说什么Git/Cocoapods之类的辅助工具，看哪个流行学哪个，可以提高你的效率以及降低你和别人的沟通成本，写代码最忌讳的就是明明有方便的工具却懒得去学，还用手动来操作。&lt;/p&gt;&lt;br&gt;&lt;p&gt;其它的无非就是多写多记，推荐坚持写Blog，因为人是很容易忘事的，我就经常发现一个问题百度了四五次，下一次还是想不起来，每次用完就忘了。。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;建议&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;前端入门个人推荐iOS，因为Objective－C的语法和结构十分的怪异，当你能看懂了Objective-C的语法之后，看类C++的语法就会十分轻松&lt;/li&gt;&lt;li&gt;而且OC的是一个C语言的超集，对比起Java来讲我觉得 &lt;strong&gt;NSString *string&lt;/strong&gt; 这种方式更好的让人理解什么是指针？什么是对象？&lt;/li&gt;&lt;li&gt;不推荐以JavaScript作为入门语言，不是说其不好，因为JavaScript过于灵活和强大，编程风格太多，不适合新手养成良好的习惯&lt;/li&gt;&lt;li&gt;不要对命令行Command抱有恐惧心里，多尝试多作死，先体验Command怎么用&lt;/li&gt;&lt;/ol&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;通信协议和安全(2016.02-2016.03)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;在客户端写了半年iOS之后，由于工作安排换到了另外一个团队，接触到了通信协议和安全方面对学习，为进入后台学习打下了一定的基础。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;个人成长经历&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;在客户端的时候虽然会用接口，但是对于接口是什么？怎么来的？如何用都不是十分明白，所以说在更换了团队之后，有了一定的编程经验，就开始着手看一些理论上的知识点&lt;/p&gt;&lt;br&gt;&lt;p&gt;首先，说到HTTP协议，那么肯定绕不开的就是Web相关的知识，此时才开始明白，同样作为前端，H5和iOS、Android根本就是属于不同的领域，一个是Web开发，一个属于嵌入式开发。&lt;/p&gt;&lt;br&gt;&lt;p&gt;大概是用了半个月的时间，了解了HTML、CSS、JS的基本概念和用法，而且看了HTTP的基本概念，并且对于一些Web常见的安全问题有了理论上的了解，足后把一个叫做WebGoat的安全训练里的题做了一遍。&lt;/p&gt;&lt;br&gt;&lt;p&gt;在这个阶段，因为已经有了前端的经验基础，基本上都是处于自学过程，而且没有碰到什么特别的阻碍。此时已经理解了接口是如何运作的，心里就开始想“后台是如何实现接口的呢？”&lt;/p&gt;&lt;ul&gt;&lt;li&gt;建议&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;通信协议如果往深了研究是个无底洞，但是作为应用开发了解基本原理就可以了，但是也要至少明白TCP/IP 和 HTTP 是在不同工作层工作，以及能读懂报文&lt;/li&gt;&lt;li&gt;在有了编程基础之后，作为标记语言／脚本语言组成的Web入门就容易了，但是此时也会体会到了JS的灵活多变&lt;/li&gt;&lt;li&gt;关于通信协议和安全的知识点，大部分都是书本上的知识，一定要有了基础再来看，不然就会理论脱离实践，看书看的昏昏欲睡&lt;/li&gt;&lt;/ol&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;痛苦的后台学习(2016.03-2016.07)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;在学习了基本的Web安全知识之后，大概干了2周的安全测试，主要是使用了Burpsuite这个工具，熟悉了怎么抓包和设置代理&lt;/p&gt;&lt;p&gt;然后就因为缺少开发人员，组里老大说让我去研究研究后台，建一个网站，把我们的文档都存到数据库里。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;个人成长经历&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;因为Java实在是有太多的框架，以及不同的框架都有一套自己的设计模式，所以说学习成本十分的高，大概需要花上1－2个月才能学完，当我开始学习时，与提问相比已经对具备了以下知识点&lt;/p&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;明白了分层设计和模块之间解耦对好处&lt;/li&gt;&lt;li&gt;明白了MVC设计模式&lt;/li&gt;&lt;li&gt;对使用反射有一定了解(OC里也有反射)&lt;/li&gt;&lt;li&gt;能读懂官方文档和错误日志&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;p&gt;学习后台的第一步也是工具的学习，首先要学习的就是IDE的使用和Maven，我选用了 IntelliJ，所以并不清楚Eclipse如何使用，况且IntelliJ对Maven有很好的集成。&lt;/p&gt;&lt;br&gt;&lt;p&gt;由于没有专门的指导人，所以就买了一本书先来看[架构探险:从零开始写Java Web框架]，按照书中章节一步一步的来，先对Web框架有了一定了解。&lt;/p&gt;&lt;p&gt;我个人认为架构探险作者的一个观点很对 &lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;新手不要一上来就学习Spring等等，这些只是框架的一种，应该先去明白一个JavaWeb框架运作需要哪些设计模式，自己亲手实现一遍，然后再去看Spring等知名框架是如何实现的&lt;/strong&gt; 。&lt;/p&gt;&lt;br&gt;&lt;p&gt;但是不幸的是，架构探险这本书中有一些概念讲的并不正确，会让人产生误解，但是仍然是一本十分好的指导书。&lt;/p&gt;&lt;br&gt;&lt;p&gt;在了解Web框架的基本运作流程之后，就可以针对自己的项目，现进行模块划分，然后选定合适的框架，然后去学习框架的设计思想，然后再来完成需求&lt;/p&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;DAL数据库接入层:MyBatis&lt;br&gt;&lt;/li&gt;&lt;li&gt;业务逻辑层:Spring&lt;br&gt;&lt;/li&gt;&lt;li&gt;业务服务层:Spring&lt;br&gt;&lt;/li&gt;&lt;li&gt;Web服务层:SpringMVC&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;在框架的学习中，除了SpringMVC+Spring+MyBatis这种必不可少的模块之外，后台服务还有权限控制，缓存，队列等等一系列的概念需要学习，到目前为止我个人也没有全部掌握，但是你会发现，到了这个时候你的知识储备已经足够让你了解哪些你还需要学习，以及怎么学习，已经成为了一名标准的搬砖工，完成了职业化的转变。&lt;/p&gt;&lt;p&gt;当我架起了后台Web服务，再去看怎么写网站，虽然并不精通，但是自学已经没问题了&lt;/p&gt;&lt;ul&gt;&lt;li&gt;建议&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;后台框架之间设计模式不同让人十分头大，不像iOS所有框架都是基于CocoaFramework，框架思路基本都相似，但是Java不是，所以说框架的学习成本很高，常常感觉自己智商不够用，要耐下心来&lt;/li&gt;&lt;li&gt;后台中很多术语起名怪异，会对新手学习产生很大影响，比如有好多年的工程师，分不清控制反转和依赖注入不是同一个概念，解释不了什么是容器？以及Get/Post到底有什么区别，所以说一定要弄清楚术语背后的实质&lt;/li&gt;&lt;li&gt;到后期找不到指导人的时候，脸皮一定要厚，我就是下了班看谁没走，知道他大概负责公司哪个部分，连别人叫啥都还不知道就抓着问。。。&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;目前掌握的技能列表&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;所谓的掌握是指能熟练的完成应用并且有一定代码设计能力的水准，部分附上了Blog里的链接&lt;/p&gt;&lt;br&gt;&lt;br&gt;前端技能&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Objective-C: 入门的语言，感觉学会了OC学Java轻松好多&lt;/li&gt;&lt;li&gt;Swift: Apple大法好，感觉Struct+Interface的设计模式用来解耦太方便了&lt;/li&gt;&lt;li&gt;HTML: 大概看了1周，会用，能写生产要求的Web需求，但是不精通&lt;/li&gt;&lt;li&gt;JavaScript: 同HTML&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/08/09/JQuery%25E5%25AF%25B9%25E8%25B1%25A1%25E5%2592%258CDOM%25E5%25AF%25B9%25E8%25B1%25A1%25E5%258C%25BA%25E5%2588%25AB%25E5%2592%258C%25E8%25BD%25AC%25E5%258C%2596/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;JavaScript-Jquery&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 同上，为什么和JavaScript分开列呢？因为会JQuery和会源生JS是两个概念&lt;/li&gt;&lt;li&gt;CSS: 同HTML&lt;/li&gt;&lt;li&gt;CSS-Bootstrap: 同JQuery，虽然都说BootStrap太重，但是大家还都在用&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;后台服务技能&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/16/Web%25E6%25A1%2586%25E6%259E%25B6%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25B1%25BB%25E5%258A%25A0%25E8%25BD%25BD%25E5%25B7%25A5%25E5%2585%25B7/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Java&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 相顾无言，唯有泪千行，Swift快干掉它&lt;/li&gt;&lt;li&gt;Spring&lt;/li&gt;&lt;li&gt;SpringMVC&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/08/11/DALMyBatis%25E6%25A6%2582%25E5%25BF%25B5%25E5%2592%258C%25E6%2580%259D%25E7%25BB%25B4/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;MyBatis&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 持久层框架，另外的选择还有Hibernate，但是我只会这一个。。。&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/08/13/Shiro%25E7%259A%2584%25E7%25AE%2580%25E4%25BB%258B%25E5%2592%258C%25E4%25B8%258ESpring%25E9%259B%2586%25E6%2588%2590/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Shiro&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 这个教程少之又少，加上不是所有人都对权限控制有所了解，特别是其设计思路十分复杂，学了好久&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/23/%25E4%25BB%2580%25E4%25B9%2588%25E5%258F%25AB%25E5%2581%259A%25E5%25AE%25B9%25E5%2599%25A8/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Jetty/Tomcat容器配置&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 我一直在问容器到底是什么意思？结果十个人给了我10个答案，后来我自己总结出了第11个&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;数据库技能&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;MySQL Client/MySQL Workbench:学会画EER图给领导看很重要&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/07/24/MySQL%25E5%2592%258C%25E5%2591%25BD%25E4%25BB%25A4%25E8%25A1%258C%25E4%25B8%2580%25E6%25A0%25B7%25E7%259A%2584%25E8%2587%25AA%25E5%258A%25A8%25E8%25A1%25A5%25E5%2585%25A8/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;MySQL Command&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 开始的时候都用可视化数据库，后来看了数据库组同事风骚的操作，下决心学会了命令行数据库操作&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;依赖处理/版本控制&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Cocoapods: 这个尼玛比Maven好用太多了&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/25/Maven%25E7%259A%2584%25E6%259C%25AC%25E8%25B4%25A8%25E5%2592%258C%25E4%25BD%25BF%25E7%2594%25A8/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Maven&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;: 就是因为Cocoapods太好用，学Maven的时候被不清不楚的教程搞得好累&lt;/li&gt;&lt;li&gt;Git: 这个。。。没什么说的，程序员必学吧。。。其实就是打游戏存档&lt;/li&gt;&lt;li&gt;Git Client/GitHub/SourceTree/Tower: 熟悉各种Git的客户端。。但是我还是觉得Xcode自带的最好用，可惜Java工程不能用&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;网络工具/概念&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Burpsuite:屠龙宝刀，可惜到了我这个菜鸡手里只能搞搞小动作&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/02/21/Charles%25E6%258A%2593%25E5%258C%2585Localhost/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Charles&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:MaxOS里的wireshark真是太难看了&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/08/09/%25E5%25A6%2582%25E4%25BD%2595%25E5%259C%25A8%25E5%2591%25BD%25E4%25BB%25A4%25E8%25A1%258C%25E4%25B8%258B%25E4%25BD%25BF%25E7%2594%25A8Shadowsocks/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Shadowsocks&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:学习一切的前提，用来听听程序员中的长者传授一些人生的经验&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/01/HTTP%25E6%258A%25A5%25E6%2596%2587%25E5%259F%25BA%25E6%259C%25AC%25E6%25A6%2582%25E5%25BF%25B5%25E5%25AD%25A6%25E4%25B9%25A0/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;HTTP&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:必备网络知识&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/15/TCPIP%25E5%2592%258CSocket%25E7%259A%2584%25E5%2585%25B3%25E7%25B3%25BB/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;TCP/IP&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:同上&lt;/li&gt;&lt;li&gt;Socket/WebSocket:同上&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/03/WebSerivce%25E7%259A%2584%25E5%25AD%25A6%25E4%25B9%25A0/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;WebServices&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:同上&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/14/HTTP%25E5%2592%258CServlet%25E7%259A%2584%25E5%2585%25B3%25E7%25B3%25BB/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Servlet&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:同上&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/08/08/Session%25E5%2592%258CCookie%25E7%259A%2584%25E5%258C%25BA%25E5%2588%25AB%25E5%2592%258C%25E5%25AE%259A%25E4%25B9%2589/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Session/Cookie机制&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:同上&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;安全工具/概念&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/10/WebGoat%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0%28%25E5%259B%259B%29/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;XSS&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:危害听上去很小，被厉害的黑客利用了可以无限大&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/02/Web%25E5%25AE%2589%25E5%2585%25A8%25E7%259F%25A5%25E8%25AF%2586%25E5%25AD%25A6%25E4%25B9%25A0%25E5%2592%258C%25E6%2580%25BB%25E7%25BB%2593/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;CSRF&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;//link.zhihu.com/?target=http%3A//alanli7991.github.io/2016/03/11/WebGoat%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0%28%25E4%25BA%2594%29/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;SQL注入&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;:后台程序员最容易留下的漏洞，危害相当大&lt;/li&gt;&lt;li&gt;注入攻击&lt;/li&gt;&lt;li&gt;Hash&lt;/li&gt;&lt;li&gt;签名&lt;/li&gt;&lt;li&gt;对称加密/非对称加密&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;通用工具类&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Markdown:程序员交流必备&lt;/li&gt;&lt;li&gt;Hexo/Git Pages:写Blog用的&lt;/li&gt;&lt;li&gt;Yum/Homebrew/apt-get:其实Linux就学会这个加上cd 和 ls 就可以干许多事了&lt;/li&gt;&lt;li&gt;Terminal Command:命令行会的越多越好&lt;/li&gt;&lt;li&gt;Linux各种虚拟机的安装和折腾:遇到问题：“要不重装系统试试看？”&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;目前缺失或准备学习的技能列表&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;目前主要是缺失前端Android的开发经验，以及后台中Redis缓存，队列操作，和安全概念中全报文加密的相关知识，正在筹划学习。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Android－Java&lt;br&gt;&lt;/li&gt;&lt;li&gt;Redis&lt;br&gt;&lt;/li&gt;&lt;li&gt;ZooKeeper&lt;/li&gt;&lt;li&gt;Kafka&lt;/li&gt;&lt;li&gt;RabbitMQ&lt;/li&gt;&lt;li&gt;Docker&lt;/li&gt;&lt;li&gt;Node.js&lt;/li&gt;&lt;li&gt;Jenkins&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;b&gt;后记&lt;/b&gt;&lt;br&gt;&lt;br&gt;经过这一年的折腾，越来越觉得算法和数据结构这两个在进阶的过程中十分重要，还在犹豫要不要去刷刷leetcode，但是又觉得时间成本太高了，真后悔研究生的时候没有好好看看算法&lt;br&gt;&lt;br&gt;&lt;b&gt;谨以此文对在工作中给予我帮助的人、体谅我工作的人表达衷心的感谢，是你们的无私和宽容照亮了我前方的道路&lt;/b&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/d7077e8fa0b28186b225061dfd3c2941_200x112.png" data-rawwidth="1332" data-rawheight="1358" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/d7077e8fa0b28186b225061dfd3c2941_r.png">
+转自我另外一个答案 链接：<a href="https://www.zhihu.com/question/32262867/answer/116981728" class="internal">一个毕业生可以从客户端重构可以学习到什么？ - 卓嘉的回答</a> －－－－－－－－－－－－－－－－－－－－－－－ <b>前言</b> 这个问题是我入职前提的，都没有人看。。。经历了一年，我来自问自答吧，天天看知乎上轮子哥各种高的不要不要的…
+
+<a href="/question/49646794/answer/117360328" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/49646794/answer/117360328">发布于 2016-08-17</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-12075282"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>34 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="0">
+<meta name="disableCopyAvatar" content="https://pic3.zhimg.com/697c20eeb0d650b6144a3760ead7119a_s.jpg">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-6" target="_blank" class="meta-item copyright">禁止转载</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="615" data-type="Answer">
+<link itemprop="url" href="/question/44189572/answer/97009546">
+<meta itemprop="answer-id" content="34249032" />
+<meta itemprop="answer-url-token" content="97009546" />
+<meta itemprop="answerCount" content="8" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/44189572" target="_blank" data-id="9886443" data-za-element-name="Title">
+自学前端开发1个半月， 在我现在基础的前提下，如何在7月份离职的时候能找到一份前端的实习机会”。 ?
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/44189572/answer/97009546">
+<!-- <meta itemprop="answer-id" content="34249032">
+<meta itemprop="answer-url-token" content="97009546"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>149</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">149</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$neekey"
+target="_blank" href="/people/neekey"
+>倪云建</a></span><span title="资深前端开发工程师" class="bio">
+资深前端开发工程师
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="149" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">149</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="9886443" data-action="/answer/content" data-author-name="倪云建" data-entry-url="/question/44189572/answer/97009546">
+
+<textarea hidden class="content">你的问题其实可以理解为，“在我现在基础的前提下，如何在7月份离职的时候能找到一份前端的实习机会”。&lt;br&gt;&lt;br&gt;之前有个机会给一个没有任何技术背景的人做一对一前端培训（当然因为各种原因没进行下去），当时列的一份课程内容，可以参考下：&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;3月（前端基础）&lt;ul&gt;&lt;li&gt;前端语言基础&lt;ul&gt;&lt;li&gt;JavaScript语言基础&lt;/li&gt;&lt;li&gt;JavaScript难点：闭包&lt;/li&gt;&lt;li&gt;JavaScript难点：单线程异步&lt;/li&gt;&lt;li&gt;JavaScript难点：原型继承&lt;/li&gt;&lt;li&gt;CSS语言基础&lt;/li&gt;&lt;li&gt;HTML语言基础&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;前端DOM编程&lt;ul&gt;&lt;li&gt;DOM操作&lt;/li&gt;&lt;li&gt;DOM事件&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;计算机网络原理&lt;/li&gt;&lt;li&gt;前端网络编程&lt;ul&gt;&lt;li&gt;AJAX&lt;/li&gt;&lt;li&gt;异步&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;4月（后端基础）&lt;ul&gt;&lt;li&gt;简单的PHP服务端编程&lt;ul&gt;&lt;li&gt;PHP语言基础（简单）&lt;/li&gt;&lt;li&gt;简单的PHP服务端编程&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;数据库知识&lt;ul&gt;&lt;li&gt;数据库基础知识&lt;/li&gt;&lt;li&gt;PHP操作数据库&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;前后端贯通&lt;ul&gt;&lt;li&gt;cookie &amp;amp; session&lt;/li&gt;&lt;li&gt;登录&lt;/li&gt;&lt;li&gt;数据库读写&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;5月（前端实践）&lt;ul&gt;&lt;li&gt;框架与库&lt;/li&gt;&lt;li&gt;大量前端页面的实践&lt;/li&gt;&lt;li&gt;兼容性&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;6月（Mobile Web）&lt;ul&gt;&lt;li&gt;H5开发基础知识&lt;/li&gt;&lt;li&gt;H5页面实践&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;7月（NodeJS)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;NodeJS语言基础&lt;/li&gt;&lt;li&gt;Node 服务端开发&lt;/li&gt;&lt;li&gt;Node 命令行工具开发&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br&gt;我列的这个时间计划，基本上是全天学习（早上9点开始上课，下午继续上课，晚上还有作业），周末会有测试。然后我实践了两周下来发现学生的学习进度还是比我预期的慢很多。当时得出的结论是，&lt;b&gt;知识背景和学习能力这两个要素会对课程进度产生很大的差异&lt;/b&gt;。所以你在评估自己的进度的时候，需要看清楚自己在这两块的能力。&lt;br&gt;&lt;br&gt;从长远来看我的建议：&lt;br&gt;&lt;br&gt;- 欲速则不达。做长远的学习计划，或许用一年的时间成为一名各方面知识都基本了解的前端工程师会是一个更好的目标&lt;br&gt;- 重视基础知识。比如我的课程设计里面，前面两个月都是以基础知识的掌握为主&lt;br&gt;- 重视后端知识。前端工程师不仅仅是需要会JS，CSS，HTML就可以，还需要对网络原理，后端的一些实现原理有了解。&lt;br&gt;- 关于CSS这块的能力。相比JS，CSS这块的能力更加偏向于经验的积累，我的建议是，多进行实际项目的实践，并且有针对性的写独立的样式模块，对写的页面都保证兼容性（IE8+，Chrome，Firefox，Safari）。另外要是有耐心，尝试写一个类似Bootstrap这样的样式库，能得到比较完整的经验覆盖面，以及增加对CSS模块化的理解（尝试使用LESS和SASS）&lt;br&gt;- H5可以往后放。H5的本质还是以上的这些知识在移动端的应用，只是额外补充更多的知识而已（如touch相关的编程，各种传感器，viewport，高分屏适配等）&lt;br&gt;- 程序员是一个知识体量很大的职业，不要仅仅局限在前端，可以看看 陈皓写的 &lt;a href=&quot;//link.zhihu.com/?target=http%3A//coolshell.cn/articles/4990.html&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;程序员技术练级攻略&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;短期对于7月份离职准备的建议：&lt;br&gt;&lt;br&gt;- 1、巩固基础知识，参考我上面写的3月和4月计划，时间有限，以3月计划为主，时间不够，4月后端相关知识可以只是做大体了解&lt;br&gt;- 2、基础框架使用：jQuery用起来，并且直接用它来做页面&lt;br&gt;- 3、CSS 部分实践：不仅仅是切页面，同时保证兼容性&lt;br&gt;- 了解各种新技术名词趋势（注意只是了解，你没那么多时间。面试的时候面试官会觉得你能follow最新的趋势，可能倾向于认为你会有学会这些技能的潜力），参考 &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/gaohailang/blog/issues/12&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;2016/04/07 展望 Javascript 2016年的趋势和生态发展 · Issue #12 · gaohailang/blog · GitHub&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+你的问题其实可以理解为，“在我现在基础的前提下，如何在7月份离职的时候能找到一份前端的实习机会”。 之前有个机会给一个没有任何技术背景的人做一对一前端培训（当然因为各种原因没进行下去），当时列的一份课程内容，可以参考下： 3月（前端基础）前端…
+
+<a href="/question/44189572/answer/97009546" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/44189572/answer/97009546">发布于 2016-04-25</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-9886443"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>13 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="616" data-type="Answer">
+<link itemprop="url" href="/question/38269966/answer/100204715">
+<meta itemprop="answer-id" content="35533579" />
+<meta itemprop="answer-url-token" content="100204715" />
+<meta itemprop="answerCount" content="38" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/38269966" target="_blank" data-id="7515258" data-za-element-name="Title">
+用 JavaScript 可以做哪些有趣的事情？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/38269966/answer/100204715">
+<!-- <meta itemprop="answer-id" content="35533579">
+<meta itemprop="answer-url-token" content="100204715"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>149</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">149</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$fu-wang-13"
+target="_blank" href="/people/fu-wang-13"
+>傅汪</a></span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="149" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">149</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="7515258" data-action="/answer/content" data-author-name="傅汪" data-entry-url="/question/38269966/answer/100204715">
+
+<textarea hidden class="content">一行代码屏蔽百度搜索里害死人的广告：&lt;br&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;#content_left&amp;gt;div&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;has&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;font:contains('- ')&amp;gt;a:contains('推广'), &amp;gt;a:contains('推广链接'), &amp;gt;a:contains('商业推广')&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//或者hide()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;在百度搜索的页面下，按F12打开调试台，在console中输入上述代码再回车，排在前面的百度推广条目就不见啦！&lt;br&gt;&lt;br&gt;原来的网页：&lt;br&gt;&lt;img src=&quot;https://pic2.zhimg.com/d412dfd2917793b1800441624c0ca185_b.png&quot; data-rawwidth=&quot;766&quot; data-rawheight=&quot;687&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;766&quot; data-original=&quot;https://pic2.zhimg.com/d412dfd2917793b1800441624c0ca185_r.png&quot;&gt;&lt;br&gt;&lt;br&gt;变干净的网页：&lt;br&gt;&lt;img src=&quot;https://pic4.zhimg.com/781965cb31960576ac7d32f4f6904dd3_b.png&quot; data-rawwidth=&quot;770&quot; data-rawheight=&quot;612&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;770&quot; data-original=&quot;https://pic4.zhimg.com/781965cb31960576ac7d32f4f6904dd3_r.png&quot;&gt;&lt;br&gt;&lt;br&gt;我还简单制作了一个屏蔽百度广告的Chrome插件，欢迎大家试用。下载地址：&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/filick/Baibye&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;GitHub - filick/Baibye.&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img src="https://pic2.zhimg.com/d412dfd2917793b1800441624c0ca185_200x112.png" data-rawwidth="766" data-rawheight="687" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic2.zhimg.com/d412dfd2917793b1800441624c0ca185_r.png">
+一行代码屏蔽百度搜索里害死人的广告： $("#content_left&gt;div").has("font:contains('- ')&gt;a:contains('推广'), &gt;a:contains('推广链接'), &gt;a:contains('商业推广')").remove(); //或者hide()
+ 在百度搜索的页面下，按F12打开调试台，在console中输入上述代…
+
+<a href="/question/38269966/answer/100204715" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-05-11" target="_blank" href="/question/38269966/answer/100204715">编辑于 2016-05-17</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-7515258"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>39 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="617" data-type="Answer">
+<link itemprop="url" href="/question/28557115/answer/41267240">
+<meta itemprop="answer-id" content="11899259" />
+<meta itemprop="answer-url-token" content="41267240" />
+<meta itemprop="answerCount" content="30" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/28557115" target="_blank" data-id="3605720" data-za-element-name="Title">
+怎样用通俗的语言解释什么叫 REST，以及什么是 RESTful？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/28557115/answer/41267240">
+<!-- <meta itemprop="answer-id" content="11899259">
+<meta itemprop="answer-url-token" content="41267240"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>149</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">149</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$xu-lei-69-24"
+target="_blank" href="/people/xu-lei-69-24"
+>徐磊</a></span><span title="祖传烂代码，专克架构师！今天没带刀我他妈就放过你！" class="bio">
+祖传烂代码，专克架构师！今天没带刀我他…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="149" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">149</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="3605720" data-action="/answer/content" data-author-name="徐磊" data-entry-url="/question/28557115/answer/41267240">
+
+<textarea hidden class="content">看Url就知道要什么&lt;br&gt;看http method就知道干什么&lt;br&gt;看http status  code就知道结果如何</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+看Url就知道要什么 看http method就知道干什么 看http status code就知道结果如何
+
+<a href="/question/28557115/answer/41267240" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" target="_blank" href="/question/28557115/answer/41267240">发布于 2015-03-06</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-3605720"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>16 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="618" data-type="Answer">
+<link itemprop="url" href="/question/22855484/answer/22875761">
+<meta itemprop="answer-id" content="4360999" />
+<meta itemprop="answer-url-token" content="22875761" />
+<meta itemprop="answerCount" content="36" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/22855484" target="_blank" data-id="1322880" data-za-element-name="Title">
+如何衡量一个人的 JavaScript 水平？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/22855484/answer/22875761">
+<!-- <meta itemprop="answer-id" content="4360999">
+<meta itemprop="answer-url-token" content="22875761"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>149</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">149</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$yuan.yue"
+target="_blank" href="/people/yuan.yue"
+>岳逢楽</a></span><span title="前端。长了一双挑剔的眼睛，有一个颜值极高的妹子。" class="bio">
+前端。长了一双挑剔的眼睛，有一个颜值极…
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="149" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">149</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="1322880" data-action="/answer/content" data-author-name="岳逢楽" data-entry-url="/question/22855484/answer/22875761">
+
+<textarea hidden class="content">&lt;a data-hash=&quot;e601b710948cfff36cf3fc35418fd79d&quot; href=&quot;//www.zhihu.com/people/e601b710948cfff36cf3fc35418fd79d&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@董超&quot; data-tip=&quot;p$b$e601b710948cfff36cf3fc35418fd79d&quot; data-hovercard=&quot;p$b$e601b710948cfff36cf3fc35418fd79d&quot;&gt;@董超&lt;/a&gt; 给出的链接只是很基础的javascript语法考察（当然题目的确出得很棒），刷完一本《javascript高级程序设计》的入门者都可以秒答。&lt;br&gt;仅仅从语法上来考察javascript水平是不合适的，因为javascript和其他语言不一样的最重要一点就是依赖于宿主，光会语法什么都写不出，所以必须考察一些其他的要点。&lt;br&gt;&lt;br&gt;以下是我为了准备14年9月面试阿里所做的笔记节选：（&lt;b&gt;仅仅是考察点&lt;/b&gt;，具体题目和扩展再设计，因为有时候我是想到了才记下来，所以这些问题会不断更新）&lt;br&gt;&lt;b&gt;基础&lt;/b&gt;&lt;br&gt;1，什么是命名空间，变量污染，变量声明提升，预编译？如何检查一段代码执行后是否声明了全局变量？&lt;br&gt;2，隐式转换的种种规则&lt;br&gt;3，关于对象，对象的属性可能有哪些特性(attribute)？什么是原型链？如何检测某一属性是在对象中还是原型链中？如何检测是否是普通对象或空对象？写一个工厂模式？(工厂模式也有很多细节，具体可以参考《javascript模式》一书，&lt;b&gt;不是&lt;/b&gt;《javascript设计模式》)&lt;br&gt;4，变量类型检测、特性检测以及异常避免&lt;br&gt;5，setTimeout的特性&lt;br&gt;6，数组几个API的手工实现&lt;br&gt;7，事件&lt;br&gt;8，正则表达式，至少要明白$1和\1的意思和几个API的用法。&lt;br&gt;9，javascript如何获得随机unicode字符？&lt;br&gt;10，JSON.parse的参数传一个什么对象的时候不能处理？(可以试试JSON.parse(window))&lt;br&gt;11，fn.apply的第一个参数是context(函数运行的上下文)，那么这个参数传一个数组会怎么处理？&lt;br&gt;&lt;b&gt;DOM操作&lt;/b&gt;&lt;br&gt;1，实现一些API如getElementsByClass（有很多细节，参见司徒正美的博客）&lt;br&gt;2，各种宽度高度(clientHeight之类)的含义及各浏览器之间的差异性&lt;br&gt;3，实现一个带回调函数的插入DOM节点API（须考虑script标签、documentFragment）&lt;br&gt;&lt;b&gt;CSS操作&lt;/b&gt;&lt;br&gt;1，如何操作CSS的伪类和伪元素？&lt;br&gt;2，如何检测改浏览器是否支持某个CSS3的特性？ &lt;br&gt;&lt;b&gt;ajax操作&lt;/b&gt;&lt;br&gt;1，get和post的区别及使用要点&lt;br&gt;2，http协议，包括格式、状态码，cookie操作&lt;br&gt;3，跨域&lt;br&gt;4，转换JSON的几种方式，JSON.stringfy有什么使用限制？&lt;br&gt;&lt;br&gt;&lt;b&gt;性能&lt;/b&gt;&lt;br&gt;1，javascript有哪些性能优化的措施？可看《高性能javascript》 &lt;br&gt;&lt;br&gt;&lt;b&gt;综合&lt;/b&gt;：各种插件的设计思路&lt;br&gt;&lt;br&gt;其他的html5相关和NodeJS相关暂略</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+<a data-hash="e601b710948cfff36cf3fc35418fd79d" href="//www.zhihu.com/people/e601b710948cfff36cf3fc35418fd79d" class="member_mention" data-editable="true" data-title="@董超" data-tip="p$b$e601b710948cfff36cf3fc35418fd79d" data-hovercard="p$b$e601b710948cfff36cf3fc35418fd79d">@董超</a> 给出的链接只是很基础的javascript语法考察（当然题目的确出得很棒），刷完一本《javascript高级程序设计》的入门者都可以秒答。 仅仅从语法上来考察javascript水平是不合适的，因为javascript和其他语言不一样的最重要一点就是依赖于宿主，光会语法…
+
+<a href="/question/22855484/answer/22875761" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2014-02-26" target="_blank" href="/question/22855484/answer/22875761">编辑于 2014-04-14</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-1322880"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>35 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="619" data-type="Answer">
+<link itemprop="url" href="/question/50244455/answer/120293219">
+<meta itemprop="answer-id" content="43607096" />
+<meta itemprop="answer-url-token" content="120293219" />
+<meta itemprop="answerCount" content="107" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/50244455" target="_blank" data-id="12314487" data-za-element-name="Title">
+参加 宁JS（JSConf CN 2016）是个什么样的体验？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/50244455/answer/120293219">
+<!-- <meta itemprop="answer-id" content="43607096">
+<meta itemprop="answer-url-token" content="120293219"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>149</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">149</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$justineo"
+target="_blank" href="/people/justineo"
+>顾轶灵</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span></span><span class="badge-summary"><a href="/people/justineo#hilightbadge" target="_blank">CSS、前端开发话题优秀回答者</a></span>
+
+
+
+<span title="百度前端工程师" class="bio">
+百度前端工程师
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="149" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">149</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="12314487" data-action="/answer/content" data-author-name="顾轶灵" data-entry-url="/question/50244455/answer/120293219">
+
+<textarea hidden class="content">简单记录一些吧。&lt;br&gt;&lt;br&gt;-- Day 1 --&lt;br&gt;&lt;br&gt;&lt;b&gt;Vue.js: the Past and the Future&lt;/b&gt;&lt;br&gt;&lt;br&gt;回顾了 Vue 的历史，提供了一些展现关注度和活跃度的数据，安利渐进式框架理念，简单展望 2.0。（感觉有点 Apple 发布会的风格，&lt;a data-hash=&quot;cfdec6226ece879d2571fbc274372e9f&quot; href=&quot;//www.zhihu.com/people/cfdec6226ece879d2571fbc274372e9f&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@尤雨溪&quot; data-hovercard=&quot;p$b$cfdec6226ece879d2571fbc274372e9f&quot;&gt;@尤雨溪&lt;/a&gt; 穿衣风格好像被赞了。）&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;How to build a compiler&lt;br&gt;&lt;/b&gt;&lt;br&gt;James Kyle 是 Babel 的 core member，主要讲了编译器工作流程概述，然后用了自己在 GitHub 上的代码示例（&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/thejameskyle/the-super-tiny-compiler&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;thejameskyle/the-super-tiny-compiler: Possibly the smallest compiler ever&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;）一行行解释如何写一个最最最最简单的编译器。不过编译器复杂的部分这点时间也讲不清，所以整体有种「1. 画下框线 2. 润色一下细节 3. 清明上河图就画好了」的感觉。目测是念稿子的，解释代码时的动效不错。整个 slideshow 的风格……我只能说辣眼睛……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;企业级框架EGG&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;a data-hash=&quot;9d9f94035b55b89236c232b15c7d9190&quot; href=&quot;//www.zhihu.com/people/9d9f94035b55b89236c232b15c7d9190&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@天猪(刘勇)&quot; data-hovercard=&quot;p$b$9d9f94035b55b89236c232b15c7d9190&quot;&gt;@天猪(刘勇)&lt;/a&gt; 介绍的 Node 框架，感觉要解决的问题没讲太明白，有点像阿里内部的述职报告，厂外的很难跟上思路……我 Node 太菜，就不评价了……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;聊聊 JS 测试框架&lt;br&gt;&lt;/b&gt;&lt;br&gt;刚想说 &lt;a data-hash=&quot;63f60c03a6b8438b0c8e5f64b27340db&quot; href=&quot;//www.zhihu.com/people/63f60c03a6b8438b0c8e5f64b27340db&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@严清&quot; data-hovercard=&quot;p$b$63f60c03a6b8438b0c8e5f64b27340db&quot;&gt;@严清&lt;/a&gt; 老师终于不讲 Toa 了，分分钟贴两个小广告给我们看……&lt;br&gt;对 Jasmine/Mocha/Tape/Ava 等等做比较，然后当然介绍新轮子 &lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/thunks/tman&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;T-man&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; 更好用更灵活啦，以后可以试试。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;GridControl: Networked PM2 for Microservices applications&lt;br&gt;&lt;/b&gt;&lt;br&gt;吃饭吃太久，只看到一个结尾，最后把项目现场开源了有个小高潮。这个项目好像是基于 PM2 的，但是 PM2 的 License 有毒啊……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;3D on the Web&lt;/b&gt;&lt;br&gt;&lt;br&gt;开始以为是 (Web)GL 入门，后来发现变成 Three.js 的入门了。不是说讲师讲得不好，只是我一直觉得这类的主题对相关知识背景有点要求的，不懂的你讲完也就是「好像很厉害的样子还是不会用（我）」，懂的又觉得你讲的入门内容太简单。和前面 James 的编译器一样，只能讲个很粗潜的皮毛，真正要用还要花大量时间学习（事实上讲的时候真的举了一个画马的例子，和我上午想的那个一个意思……）。真的要学 Three.js 就去看看 &lt;a data-hash=&quot;0999189bddb6ba96ac860ef510325e4b&quot; href=&quot;//www.zhihu.com/people/0999189bddb6ba96ac860ef510325e4b&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@羡辙&quot; data-hovercard=&quot;p$b$0999189bddb6ba96ac860ef510325e4b&quot;&gt;@羡辙&lt;/a&gt; 的&lt;a href=&quot;//link.zhihu.com/?target=https%3A//read.douban.com/ebook/7412854/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;《Three.js入门指南&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;》 吧，现场听这个收获不多。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Lightning talk&lt;/b&gt;&lt;br&gt;&lt;br&gt;- 豆瓣阅读富文本编辑器&lt;br&gt;textarea 不够用，contenteditable 虽然有很多好功能但是各种问题受不了（兼容性）。&lt;br&gt;推荐的方式我看下来就是 Medium 的处理方式了。推荐了 Draft.js 和 Slate。&lt;br&gt;&lt;br&gt;- Weex&lt;br&gt;不多讲了，未来会是 Vue.js 语法输出三端代码，看 demo 的方式完全是以浏览器端写 Vue 代码的体验。&lt;br&gt;&lt;br&gt;- bamei&lt;br&gt;&lt;a data-hash=&quot;68f7f4c69ef622032cf6c93892e325a1&quot; href=&quot;//www.zhihu.com/people/68f7f4c69ef622032cf6c93892e325a1&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@老雷&quot; data-hovercard=&quot;p$b$68f7f4c69ef622032cf6c93892e325a1&quot;&gt;@老雷&lt;/a&gt; 的项目，似乎是一个帮助快速搭建 Node.js 项目的工具（&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/leizongmin/bamei&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;leizongmin/bamei&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;）。&lt;br&gt;&lt;br&gt;- npminstall&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/cnpm/npminstall&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;cnpm/npminstall: Make `npm install` fast and easy.&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;- Eleme FE &amp;amp; Vue.js&lt;br&gt;直接看这个回答吧，应该覆盖到了大多数：&lt;br&gt;&lt;a href=&quot;https://www.zhihu.com/question/38213423/answer/101195694&quot; class=&quot;internal&quot;&gt;国内有哪些公司在用Vue.js，有什么心得? - 杨奕的回答&lt;/a&gt;&lt;br&gt;最后介绍了一下桌面端的 Element UI（&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/elemefe/element&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;ElemeFE/element · GitHub&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;，还没开源）。&lt;br&gt;&lt;br&gt;- Moa&lt;br&gt;Another Koa-like framework?&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Building Virtual Reality on the Web&lt;/b&gt;&lt;br&gt;&lt;br&gt;来自 Mozilla VR 团队的介绍，主要讲 WebVR。WebVR 在生态上的好处很明显，不用大家各自做封闭的东西了。但是从零开始做 WebVR 不那么容易，所以正好安利一下声明式的 WebVR 框架 &lt;a href=&quot;//link.zhihu.com/?target=https%3A//aframe.io/&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;A-Frame&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; 和相关的工具。从 demo 来看离 web 版的 Minecraft 应该不远了……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Building a Unified Frontend and Mobile Team&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;a data-hash=&quot;85de6407f2219137df29b4249b91cfd5&quot; href=&quot;//www.zhihu.com/people/85de6407f2219137df29b4249b91cfd5&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@郭达峰&quot; data-hovercard=&quot;p$b$85de6407f2219137df29b4249b91cfd5&quot;&gt;@郭达峰&lt;/a&gt; 带伤上场……React Native / Weex 其实给我们带来的是在前端/全端团队结构、合作方式上的影响，只要会写前端代码就能搞定 web + Android + iOS 三端的确是很爽的。这个分享都是些实际的经验教训，还是很有参考价值的。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Building asynchronous microservices that get along&lt;/b&gt;&lt;br&gt;&lt;br&gt;讲师说讲的东西比较 boring，我就去后面聊天了……&lt;br&gt;&lt;br&gt;&lt;br&gt;-- Day 2 --&lt;br&gt;&lt;br&gt;&lt;b&gt;单页应用“联邦制”实践&lt;/b&gt;&lt;br&gt;&lt;br&gt;来自 UCloud 的分享，讲述问题主要是单页应用不同产品线希望以不同节奏支持灰度发布。总体看就是按模块发布并做记录，运行时每个用户从服务端读取特定的模块版本信息来加载。可能复杂的主要在于整个流程的工程化和自动化吧。多个产品线公共的模块如果需要升级似乎还是避不开提到的痛点的。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;前端 DevOps 实践&lt;/b&gt;&lt;br&gt;&lt;br&gt;也是带伤上场的……主要是持续集成、工程化管理的话题。讲的东西大的互联网公司里 CI 一般都有专门部门搞，提到的东西基本都有了而且更加完善一些，可能对小公司更有参考价值一些。最后介绍了一下 Sentry，小公司买个这种服务还挺好的，大公司一般倾向于自己做吧。类似的还有 Bugsnag，感觉差不多。要吐槽一下的是 PPT 做得也太不讲究了……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Node.js在线性能调优与故障排查&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;a data-hash=&quot;7cd6a45d341fb2b4b35b01444e746b98&quot; href=&quot;//www.zhihu.com/people/7cd6a45d341fb2b4b35b01444e746b98&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@朴灵&quot; data-hovercard=&quot;p$b$7cd6a45d341fb2b4b35b01444e746b98&quot;&gt;@朴灵&lt;/a&gt; 老师主要还是讲如何用 alinode 做性能分析，偏产品功能的介绍。分别讲了怎么找 CPU 占用率瓶颈、内存泄露点、GC 瓶颈。从功能来看还是很强大的，做了很多工作，并不像朴老师自谦的「做了一点微小的工作」。一个月 700，对于公司用户来说应该是忽略不计的吧……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Learning design patterns from modern JavaScript frameworks&lt;/b&gt;&lt;br&gt;&lt;br&gt;介绍 Pure function / High-order function / Uni-directional data flow / Immutable / Type system 在 JS 里的应用。我看下来帮讲师做下总结：这些好东西 Elm 里都有，哈哈。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;面向未来的自动化测试-Macaca&lt;/b&gt;&lt;br&gt;&lt;br&gt;跨三端的自动化测试套件，主要还是偏展示 Macaca 的已有功能，从我个人而言可能更关注一些具体问题怎么来实际操作的细节。不过这个时长的分享也讲不完这些东西，会后在研究下吧。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Managing Async with RxJS 5 at Netflix&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/Reactive-Extensions/RxJS&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;Reactive-Extensions/RxJS: The Reactive Extensions for JavaScript&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;RxJS 的科普，对于老司机来说可能简单了些，不过讲的方式还是让我这样不太了解的人很能接受的。毕竟这个东西还是有一些理解成本，打个不恰当的比喻，像是做信号处理的时候发现除了时域，还有频域这个东西。最后介绍的单测写法很有意思。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Lightning Talk&lt;/b&gt;&lt;br&gt;&lt;br&gt;- React &amp;amp; React Native in QQ&lt;br&gt;先列了一堆关于 React 的文章标题……React Native 方面稍微讲了下 QQ 的实践。&lt;br&gt;&lt;br&gt;- ？？？&lt;br&gt;&lt;a data-hash=&quot;d002b867a71976aa8c8dbbdbd280bba8&quot; href=&quot;//www.zhihu.com/people/d002b867a71976aa8c8dbbdbd280bba8&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@undoZen-安动生宇&quot; data-hovercard=&quot;p$b$d002b867a71976aa8c8dbbdbd280bba8&quot;&gt;@undoZen-安动生宇&lt;/a&gt; 说话声音太小了，听不清，也没看明白想讲的是啥……&lt;br&gt;&lt;br&gt;- ？？？&lt;br&gt;讲了一些关于 web graphics 的一些想法，也没太听清楚。&lt;br&gt;&lt;br&gt;- 参加宁 JS 是怎样的体验？&lt;br&gt;很屌地把每个已经做好的分享都吐槽了一遍，风格很犀利啊！人我不认识，但是一定是前端相声讲得最好的……赶紧搬到知乎来给我们点赞啊！&lt;br&gt;&lt;br&gt;- RSuite&lt;br&gt;&lt;a href=&quot;//link.zhihu.com/?target=https%3A//github.com/rsuite/rsuite&quot; class=&quot; wrap external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;rsuite/rsuite: 一个基于 React.js 的 Web 组件库&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;- 我是如何做单页应用的&lt;br&gt;扫了几眼感觉套路有点非主流，可是大家还沉浸在刚才的精彩吐槽里不能自拔，关注度不高。&lt;br&gt;&lt;br&gt;- License 问题 &amp;amp; 推荐 Meteor&lt;br&gt;声音太吵，没太听清，主要是后面贺老的 PPT 已经打出来了大家都在笑。听见似乎是让大家注意 React 的 License？&lt;br&gt;&lt;br&gt;- Babel 插件&lt;br&gt;&lt;a data-hash=&quot;3ec3b166992a5a90a1083945d2490d38&quot; href=&quot;//www.zhihu.com/people/3ec3b166992a5a90a1083945d2490d38&quot; class=&quot;member_mention&quot; data-editable=&quot;true&quot; data-title=&quot;@贺师俊&quot; data-hovercard=&quot;p$b$3ec3b166992a5a90a1083945d2490d38&quot;&gt;@贺师俊&lt;/a&gt; 贺老手把手教你写 Babel plugin……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;移动海量服务下基于 React 的高性能同构实践&lt;/b&gt;&lt;br&gt;&lt;br&gt;讲了 React（同构复用），也讲了优化方案，总结了几点，首屏直出、减少 RTT 啥的。可感觉 React 和后面讲的优化啥的没关系啊……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Build a Better App with Mapbox&lt;/b&gt;&lt;br&gt;&lt;br&gt;面向开发者的产品介绍为主，好在 slides 做得很用心，demo 效果也不错。&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;DevTools for the Progressive Web&lt;/b&gt;&lt;br&gt;&lt;br&gt;我听下来表达了现在微软的开放态度：希望开发者可以自由选择开发工具，微软提供的编辑器（比如 VS Code）通过适配到 Chrome Debugging Protocal 可以用来接入各种浏览器的调试；Edge 也会支持这个协议这样其他调试工具也可以接入。另外主要是阐述了一些讲师自己对调试工具开发现状的一些思考。讲师从欧洲过来飞机延误了两次还绕道香港，真心不容易……&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Using nodejs to count 30 billion requests per day&lt;/b&gt;&lt;br&gt;&lt;br&gt;法国人用中文讲的，声音也有点轻听不太明白，不过看 slides 主要也是对其公司产品的展示。简单讲了下技术栈。身边也不止一个人质疑，30 billion 体现在什么地方……&lt;br&gt;&lt;br&gt;--&lt;br&gt;&lt;br&gt;总的来看远道而来的外籍分享者准备得都非常充分，不管是 slides 的设计还是演讲的能力。我们国内的开发者演讲能力的确普遍不如老外，很难把故事讲得深入浅出。这个我觉得的确比较难学，我自己在组内做做分享都会觉得讲完了没把东西讲清楚。&lt;br&gt;&lt;br&gt;最后谢谢组织者和 Wired Craft。</textarea>
+
+
+<div class="zh-summary summary clearfix">
+
+简单记录一些吧。 -- Day 1 -- <b>Vue.js: the Past and the Future</b> 回顾了 Vue 的历史，提供了一些展现关注度和活跃度的数据，安利渐进式框架理念，简单展望 2.0。（感觉有点 Apple 发布会的风格，<a data-hash="cfdec6226ece879d2571fbc274372e9f" href="//www.zhihu.com/people/cfdec6226ece879d2571fbc274372e9f" class="member_mention" data-editable="true" data-title="@尤雨溪" data-hovercard="p$b$cfdec6226ece879d2571fbc274372e9f">@尤雨溪</a> 穿衣风格好像被赞了。） <b>How to build a compiler </b> J…
+
+<a href="/question/50244455/answer/120293219" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-09-03" target="_blank" href="/question/50244455/answer/120293219">编辑于 2016-09-05</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-12314487"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>17 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="feed-item feed-item-hook folding" itemprop="question" itemscope itemtype="http://schema.org/Question" data-score="620" data-type="Answer">
+<link itemprop="url" href="/question/39185503/answer/80650573">
+<meta itemprop="answer-id" content="27688565" />
+<meta itemprop="answer-url-token" content="80650573" />
+<meta itemprop="answerCount" content="53" />
+<meta itemprop="isTopQuestion" content="false" />
+<div class="feed-main">
+<div class="content">
+<h2><a class="question_link" href="/question/39185503" target="_blank" data-id="7881369" data-za-element-name="Title">
+作为一名前端工程师是什么体验？
+</a></h2>
+<div class="expandable entry-body">
+<link itemprop="url" href="/question/39185503/answer/80650573">
+<!-- <meta itemprop="answer-id" content="27688565">
+<meta itemprop="answer-url-token" content="80650573"> -->
+
+<div class="zm-item-vote">
+<a class="zm-item-vote-count js-expand js-vote-count" href="javascript:;" data-bind-votecount>148</a>
+</div>
+
+<div class="zm-votebar">
+<button class="up ">
+<i class="icon vote-arrow"></i>
+<span class="count">148</span>
+<span class="label sr-only">赞同</span>
+</button>
+<button class="down ">
+<i class="icon vote-arrow"></i>
+<span class="label sr-only">反对</span>
+</button>
+</div>
+
+
+
+<div class="zm-item-answer-author-info">
+
+<span class="summary-wrapper">
+<span class="author-link-line">
+
+<a class="author-link"
+data-hovercard="p$t$ling-long-xie-seng"
+target="_blank" href="/people/ling-long-xie-seng"
+>玲珑邪僧</a></span><span title="web前端工程师/Android开发/Ruby on Rails" class="bio">
+web前端工程师/Android开发/Ruby on Rails
+</span>
+</span>
+</div>
+
+<div class="zm-item-vote-info" data-votecount="148" data-async-voters="1">
+
+
+
+<span class="voters text"><a href="#" class="more text"><span class="js-voteCount">148</span>&nbsp;人赞同</a></span>
+
+
+</div>
+<div class="zm-item-rich-text expandable js-collapse-body" data-resourceid="7881369" data-action="/answer/content" data-author-name="玲珑邪僧" data-entry-url="/question/39185503/answer/80650573">
+
+<textarea hidden class="content">一遍一遍地解释web前端开发工程师 ≠ UI设计师&lt;br&gt;就用一张图解释一下什么叫web前端吧…&lt;br&gt;&lt;img data-rawwidth=&quot;951&quot; data-rawheight=&quot;1078&quot; src=&quot;https://pic1.zhimg.com/4981edb7890882f5ad35778094978d30_b.jpeg&quot; class=&quot;origin_image zh-lightbox-thumb&quot; width=&quot;951&quot; data-original=&quot;https://pic1.zhimg.com/4981edb7890882f5ad35778094978d30_r.jpeg&quot;&gt;</textarea>
+
+
+<div class="zh-summary summary clearfix">
+<img data-rawwidth="951" data-rawheight="1078" src="https://pic1.zhimg.com/4981edb7890882f5ad35778094978d30_200x112.jpeg" class="origin_image inline-img zh-lightbox-thumb" data-original="https://pic1.zhimg.com/4981edb7890882f5ad35778094978d30_r.jpeg">
+一遍一遍地解释web前端开发工程师 ≠ UI设计师 就用一张图解释一下什么叫web前端吧… 
+
+<a href="/question/39185503/answer/80650573" class="toggle-expand">显示全部</a>
+
+</div>
+
+
+
+<p class="visible-expanded"><a itemprop="url" class="answer-date-link meta-item" data-tooltip="s$t$发布于 2016-01-09" target="_blank" href="/question/39185503/answer/80650573">编辑于 2016-01-23</a></p>
+
+</div>
+</div>
+<div class="zm-item-meta feed-meta">
+<div class="zm-item-meta answer-actions clearfix js-contentActions">
+<div class="zm-meta-panel">
+
+<a data-follow="q:link" class="follow-link zg-follow meta-item" href="javascript:;" id="sfb-7881369"><i class="z-icon-follow"></i>关注问题</a>
+
+<a href="#" name="addcomment" class="meta-item toggle-comment js-toggleCommentBox">
+<i class="z-icon-comment"></i>56 条评论</a>
+
+
+<a href="#" class="meta-item zu-autohide js-thank" data-thanked="false"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="#" class="meta-item zu-autohide js-share"><i class="z-icon-share"></i>分享</a>
+
+<a href="#" class="meta-item zu-autohide js-collect"><i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+
+<span class="zg-bull zu-autohide">&bull;</span>
+
+<a href="#" class="meta-item zu-autohide js-noHelp">没有帮助</a>
+
+<span class="zg-bull zu-autohide">&bull;</span>
+<a href="#" class="meta-item zu-autohide js-report">举报</a>
+
+
+
+
+<meta name="copyrightStatus" content="1">
+<meta name="disableCopyAvatar" content="">
+
+<span class="zg-bull">&bull;</span>
+
+<a href="/terms#sec-licence-1" target="_blank" class="meta-item copyright">
+作者保留权利
+</a>
+
+
+<button class="meta-item item-collapse js-collapse">
+<i class="z-icon-fold"></i>收起
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="zm-invite-pager">
+
+<span><a href="?page=30">上一页</a></span>
+
+
+
+
+
+<span><a href="?page=1">1</a></span>
+
+<span>...</span>
+
+
+
+<span><a href="?page=29">29</a></span>
+
+
+
+<span><a href="?page=30">30</a></span>
+
+
+
+<span class="zg-gray-normal">31</span>
+
+
+
+<span><a href="?page=32">32</a></span>
+
+
+
+<span><a href="?page=33">33</a></span>
+
+
+
+<span>...</span>
+
+<span><a href="?page=50">50</a></span>
+
+
+
+<span><a href="?page=32">下一页</a></span>
+
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="zu-main-sidebar" data-za-module="RightSideBar">
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="topic-header-side zm-entry-head-wrap">
+
+<div class="clearfix"><div id="zh-topic-side-head">
+
+<a href="javascript:;" name="focus" class="zg-mr10 zu-entry-focus-button zg-btn-white" id="tf-225">取消关注</a>
+
+<div class="zm-topic-side-followers-info">
+
+<a href="/topic/19550901/followers"><strong>108704</strong></a> 人关注了该话题
+
+</div>
+</div></div>
+<div style="margin-top: 15px;">
+
+<a class="zg-link-litblue-normal js-may-disable" href="/topic/19550901/organize">组织</a>
+<span class="zg-bull">•</span>
+<a class="zg-link-litblue-normal js-may-disable" href="/topic/19550901/manage">管理</a>
+<span class="zg-bull">•</span>
+
+<a class="zg-link-litblue-normal" href="/topic/19550901/log">日志</a>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<h3 class="zm-topic-side-organize-title">描述
+</h3>
+<div id="zh-topic-desc" data-resourceid="225" data-action="/topic-introduction">
+<div class="zm-editable-content" data-editable-maxlength="130" ></div>
+</div>
+</div>
+</div>
+<div class="shameimaru-placeholder" data-loc="topic_up" data-params='{&quot;topic_token&quot;: &quot;19550901&quot;}'></div>
+
+<div class="zm-side-section" id="zh-topic-side-parents-list">
+<div class="zm-side-section-inner parent-topic">
+<h3 class="zm-topic-side-organize-title">父话题
+</h3>
+<div class="clearfix">
+
+<a class="zm-item-tag"
+href="/topic/19550516"
+data-hovercard="t$b$19550516" data-token="19550516" data-topicid="98" data-za-element-name="Title">
+Web 开发
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19552332"
+data-hovercard="t$b$19552332" data-token="19552332" data-topicid="708" data-za-element-name="Title">
+软件开发
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19561719"
+data-hovercard="t$b$19561719" data-token="19561719" data-topicid="3839" data-za-element-name="Title">
+网站开发
+</a>
+
+</div>
+</div>
+</div>
+<div class="zm-side-section" id="zh-topic-side-children-list">
+<div class="zm-side-section-inner child-topic">
+<h3 class="zm-topic-side-organize-title">子话题
+</h3>
+<div class="clearfix">
+
+<a class="zm-item-tag"
+href="/topic/19552521"
+data-hovercard="t$b$19552521" data-token="19552521" data-topicid="769" data-za-element-name="Title">
+JavaScript
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19551326"
+data-hovercard="t$b$19551326" data-token="19551326" data-topicid="369" data-za-element-name="Title">
+CSS
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19573936"
+data-hovercard="t$b$19573936" data-token="19573936" data-topicid="7912" data-za-element-name="Title">
+前端工程师
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19551323"
+data-hovercard="t$b$19551323" data-token="19551323" data-topicid="367" data-za-element-name="Title">
+HTML
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19583739"
+data-hovercard="t$b$19583739" data-token="19583739" data-topicid="11152" data-za-element-name="Title">
+前端性能优化
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19806306"
+data-hovercard="t$b$19806306" data-token="19806306" data-topicid="87560" data-za-element-name="Title">
+前端框架
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19621319"
+data-hovercard="t$b$19621319" data-token="19621319" data-topicid="23778" data-za-element-name="Title">
+前端开发框架和库
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19590813"
+data-hovercard="t$b$19590813" data-token="19590813" data-topicid="13512" data-za-element-name="Title">
+前端入门
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19597369"
+data-hovercard="t$b$19597369" data-token="19597369" data-topicid="15721" data-za-element-name="Title">
+浏览器兼容性
+</a>
+
+<a class="zm-item-tag"
+href="/topic/19566907"
+data-hovercard="t$b$19566907" data-token="19566907" data-topicid="5573" data-za-element-name="Title">
+Div+CSS
+</a>
+
+</div>
+
+<a class="zg-link-litblue zm-topic-side-title-link" href="/topic/19550901/organize/entire#anchor-children-topic">共有 31 个子话题，查看话题结构 » </a>
+
+</div>
+</div>
+
+
+<div class="zm-side-section">
+<div class="zm-side-section-inner" id="zh-topic-top-answerer">
+<h3>
+
+<a href="/topic/19550901/top-writer" class='SidebarListNav-sideLink Link--light' target="_blank">
+查看全部 »
+</a>
+
+活跃回答者</h3>
+<div class='zm-topic-side-person-list'>
+
+<div class="zm-topic-side-person-item">
+<a href="/people/sharpmaster" data-hovercard="p$t$sharpmaster" class="zm-list-avatar-link">
+<img class="zm-list-avatar" src="https://pic1.zhimg.com/da8e974dc_s.jpg" />
+</a>
+<div class="zm-topic-side-person-item-content">
+<a href="/people/sharpmaster" data-hovercard="p$t$sharpmaster" class="author-link">徐飞</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span><div class="ellipsis"><span class="badge-summary">优秀回答者</span>
+<span class="bio" title="三流程序员，二流架构师">三</span>流程序员，二流架构师
+
+</div>
+<div class="zg-gray-normal">
+<a class="gray_link" href="/people/sharpmaster/topic/19550901/answers">在该话题下有 91 个回答，8980 赞同</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="zm-topic-side-person-item">
+<a href="/people/fouber" data-hovercard="p$t$fouber" class="zm-list-avatar-link">
+<img class="zm-list-avatar" src="https://pic1.zhimg.com/ecfeb2b0c_s.jpg" />
+</a>
+<div class="zm-topic-side-person-item-content">
+<a href="/people/fouber" data-hovercard="p$t$fouber" class="author-link">张云龙</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span><div class="ellipsis"><span class="badge-summary">优秀回答者</span>
+<span class="bio" title="全民直播CTO">全</span>民直播CTO
+
+</div>
+<div class="zg-gray-normal">
+<a class="gray_link" href="/people/fouber/topic/19550901/answers">在该话题下有 30 个回答，9722 赞同</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="zm-topic-side-person-item">
+<a href="/people/evanyou" data-hovercard="p$t$evanyou" class="zm-list-avatar-link">
+<img class="zm-list-avatar" src="https://pic4.zhimg.com/7be980a0f_s.jpg" />
+</a>
+<div class="zm-topic-side-person-item-content">
+<a href="/people/evanyou" data-hovercard="p$t$evanyou" class="author-link">尤雨溪</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span><div class="ellipsis"><span class="badge-summary">优秀回答者</span>
+<span class="bio" title="不会搞艺术的程序员不是好设计师">不</span>会搞艺术的程序员不是好设计师
+
+</div>
+<div class="zg-gray-normal">
+<a class="gray_link" href="/people/evanyou/topic/19550901/answers">在该话题下有 128 个回答，12K 赞同</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="zm-topic-side-person-item">
+<a href="/people/kejun" data-hovercard="p$t$kejun" class="zm-list-avatar-link">
+<img class="zm-list-avatar" src="https://pic2.zhimg.com/191ec5daa9b4d6931eed0eba8a9cf39d_s.jpg" />
+</a>
+<div class="zm-topic-side-person-item-content">
+<a href="/people/kejun" data-hovercard="p$t$kejun" class="author-link">张克军</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span><div class="ellipsis"><span class="badge-summary">优秀回答者</span>
+<span class="bio" title="豆瓣前端工程师">豆</span>瓣前端工程师
+
+</div>
+<div class="zg-gray-normal">
+<a class="gray_link" href="/people/kejun/topic/19550901/answers">在该话题下有 40 个回答，3330 赞同</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="zm-topic-side-person-item">
+<a href="/people/he-shi-jun" data-hovercard="p$t$he-shi-jun" class="zm-list-avatar-link">
+<img class="zm-list-avatar" src="https://pic1.zhimg.com/da8e974dc_s.jpg" />
+</a>
+<div class="zm-topic-side-person-item-content">
+<a href="/people/he-shi-jun" data-hovercard="p$t$he-shi-jun" class="author-link">贺师俊</a><span class="icon icon-badge-best_answerer icon-badge" data-tooltip="s$b$优秀回答者"></span><div class="ellipsis"><span class="badge-summary">优秀回答者</span>
+<span class="bio" title="Web开发者">W</span>eb开发者
+
+</div>
+<div class="zg-gray-normal">
+<a class="gray_link" href="/people/he-shi-jun/topic/19550901/answers">在该话题下有 396 个回答，14K 赞同</a>
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="shameimaru-placeholder" data-loc="topic_down" data-params='{&quot;topic_token&quot;: &quot;19550901&quot;}'></div>
+
+</div>
+
+
+</div>
+
+
+<div id="zh-footer" class="zh-footer">
+<div class="content zg-wrap clearfix">
+<ul>
+
+<li><a href="https://liukanshan.zhihu.com" target="_blank">刘看山</a></li>
+
+<li><a href="/question/19581624" target="_blank">知乎指南</a></li>
+<li><a href="javascript:;" id="js-feedback-button">建议反馈</a></li>
+
+<li><a href="/app" target="_blank">移动应用</a></li>
+<li><a href="/careers">加入知乎</a></li>
+<li><a href="/terms" target="_blank">知乎协议</a></li>
+<li><a href="/jubao" target="_blank">举报投诉</a></li>
+<li><a href="/contact">联系我们</a></li>
+
+</ul>
+
+<span class="copy">&copy; 2017 知乎</span>
+
+</div>
+</div>
+
+<script type="text/json" class="json-inline" data-name="guiders2">{"exclusive-popover":{},"section":{},"editor":[]}</script>
+<script type="text/json" class="json-inline" data-name="current_user">["\u6587\u5200\u6c34\u539f","liu-yuan-39-9","https:\/\/pic2.zhimg.com\/56a9754ca686ba7d3b1e725c6452ccd1_s.png","649f8fe7032b205a3cbbbb875135734d","\u534a\u8def\u51fa\u5bb6\u5b66\u5b89\u5353",0,0,true,"174596549@qq.com","http:\/\/mail.qq.com",0,false,false,false,"32745954738176",false,false,false,true,null]</script>
+<script type="text/json" class="json-inline" data-name="user_status">[null,null,false]</script>
+<script type="text/json" class="json-inline" data-name="env">["zhihu.com","comet.zhihu.com",false,null,false,false]</script>
+<script type="text/json" class="json-inline" data-name="permissions">[]</script>
+
+
+<script type="text/json" class="json-inline" data-name="ga_vars">{"user_created":1378258190000,"now":1486365894000,"abtest_mask":"---------0--------------------","user_attr":[1,0,0,"-",1],"user_hash":"649f8fe7032b205a3cbbbb875135734d"}</script>
+
+<script type="text/json" class="json-inline" data-name="ra-urls">{"Copyright":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Copyright.98ac6609.js","PayUIApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PayUIApp.ca78ba78.js","CouponApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CouponApp.66b486a6.js","PaymentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/PaymentApp.7f16d61c.js","Community":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Community.920e484a.js","Report":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/Report.26635627.js","OrgOpHelp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/OrgOpHelp.f1709e97.js","common":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/common.a4dd3236.js","BalanceApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/BalanceApp.14e3a013.js","AnswerWarrant":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/AnswerWarrant.97f134aa.js","CommentApp":"https:\/\/static.zhihu.com\/static\/revved\/-\/apps\/CommentApp.7556991d.js"}</script>
+
+<script type="text/json" class="json-inline" data-name="current_topic">[["\u524d\u7aef\u5f00\u53d1","19550901","https:\/\/pic1.zhimg.com\/v2-8e66233f5558e741bad3a8c50b9566c8_s.jpg",225],[["Web \u5f00\u53d1","19550516","https:\/\/pic3.zhimg.com\/891b4f32a_s.jpg"],["\u8f6f\u4ef6\u5f00\u53d1","19552332","https:\/\/pic2.zhimg.com\/185d9c33d_s.jpg"],["\u7f51\u7ad9\u5f00\u53d1","19561719","https:\/\/pic2.zhimg.com\/78645670d_s.jpg"]],1,0,"",0]</script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/vendor.cb14a042.js"></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/base.6cca0b95.js"></script>
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/common.31d4e5c0.js"></script>
+
+
+<script src="https://static.zhihu.com/static/revved/-/js/closure/richtexteditor.71ca49de.js" async></script>
+<script src="https://static.zhihu.com/static/revved/-/js/closure/page-main.c075e49f.js"></script>
+<meta name="entry" content="ZH.entryT" data-module-id="page-main">
+
+<script type="text/zscript" znonce="cce19b07708a4705b5ee631b523cb4f3"></script>
+
+<input type="hidden" name="_xsrf" value="b08047425d2b394c9b9106bb47ce2ec8"/>
+</body>
+</html>
