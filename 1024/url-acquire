@@ -1,0 +1,170 @@
+#!/usr/local/bin/node
+// 这一行是套路, 给 node.js 用的
+// 如果没有这一行, 就没办法使用一些 let const 这样的特性
+"use strict"
+
+
+const request = require('request')
+const cheerio = require('cheerio')
+const fs = require('fs')
+
+/*
+本文件需要安装两个基本的库
+request 用于下载网页
+cheerio 用于解析网页数据
+*/
+
+let urlArr = []
+
+const downloadCovers = function(movies) {
+    for (let i = 0; i < movies.length; i++) {
+        const m = movies[i]
+        const url = m.coverUrl
+        var myDate = new Date();
+        //以当前时间给下载的图片起名字
+        var imgname = myDate.getTime();
+        const path = 'img' + imgname + m.coverUrl.slice(-5)
+        try {
+            request(url).pipe(fs.createWriteStream(path))
+        } catch (e) {
+
+        } finally {
+
+        }
+    }
+    console.log('download +1');
+}
+
+const IMG = function() {
+    this.coverUrl = ''
+}
+
+const imgFromDiv = function(div) {
+    // 这个函数来从一个电影 div 里面读取电影信息
+
+    // 使用 cheerio.load 函数来返回一个可以查询的特殊对象
+    const e = cheerio.load(div)
+    var imgs = []
+
+    const pic = e('input')
+
+    for (var i = 0; i < pic.length; i++) {
+        const img = new IMG()
+        //console.log(pic[i].attribs.src);
+        img.coverUrl = pic[i].attribs.src
+        imgs.push(img)
+    }
+
+    downloadCovers(imgs)
+}
+
+const imgFromUrl = function(url) {
+    console.log('imgFromUrl');
+    // request 从一个 url 下载数据并调用回调函
+    request(url, function(error, response, body) {
+        console.log('request');
+        // 回调函数的三个参数分别是  错误, 响应, 响应数据
+        // 检查请求是否成功, statusCode 200 是成功的代码
+        if (error === null && response.statusCode == 200) {
+            // cheerio.load 用字符串作为参数返回一个可以查询的特殊对象
+            // body 就是 html 内容
+            const e = cheerio.load(body)
+            //console.log(e);
+            // 查询对象的查询语法和 DOM API 中的 querySelector 一样
+            const urls = e('h3')
+            for (let i = 0; i < urls.length; i++) {
+                let element = urls[i].children[0].attribs.href
+                urlArr.push([urlArr.length, element])
+            }
+            let newUrl = url.split('=')
+            let num = newUrl[newUrl.length - 1]
+            //console.log(`save ./data/url/${num}.json`);
+            _saveJSON(`${__dirname}/data/url/url.json`, urlArr)
+        } else {
+            console.log('*** ERROR 请求失败 ', error)
+        }
+    })
+}
+
+const _saveJSON = function(path, answers) {
+    // 这个函数用来把一个保存了所有对象的数组保存到文件中
+    const fs = require('fs')
+    const s = JSON.stringify(answers, null, 2)
+    fs.writeFile(path, s, function(error) {
+        if (error !== null) {
+            console.log('*** 写入文件错误', error)
+            process.exit(1)
+            //alert('*** 写入文件错误')
+        } else {
+            console.log('--- url 文件保存成功')
+            process.exit(0)
+            //alert('--- 保存成功')
+        }
+    })
+}
+
+
+const cachedUrl = function(path) {
+    const fs = require('fs')
+    // 先生成对应的文件
+    //const path = options.url.split('/').join('-').split(':').join('-')
+    // 先尝试去硬盘中读取这个 url 对应的文件
+    fs.readFile(path, 'utf-8', function(err, data) {
+        if (err != null) {
+            // 读取这个文件失败
+            // 读不到的话说明是第一次请求，那么就使用 request
+            console.log('error', err);
+        } else {
+            console.log('读取到缓存的页面', path)
+            // 读取到，说明已经下载过了，我们讲直接读取硬盘上的文件
+            const response = {
+                statusCode: 200,
+            }
+            let head = data.split('').splice(0, 3)
+            let body = data.split('').splice(3)
+            //console.log(head);
+            //console.log(body);
+            let r = head.join('') + body.join(' ')
+            //console.log(r);
+            _saveJSON(path, r)
+        }
+    })
+}
+
+const __main = function() {
+    //let path = './data/url/url.json'
+    process.stdin.on('end', function() {
+        process.stdout.write('end');
+    });
+
+    function gets(cb) {
+        process.stdin.setEncoding('utf8');
+        //输入进入流模式（flowing-mode，默认关闭，需用resume开启），注意开启后将无法read到数据
+        //见 https://github.com/nodejs/node-v0.x-archive/issues/5813
+        //process.stdin.resume();
+        process.stdin.on('data', function(chunk) {
+            console.log('start!');
+            //去掉下一行可一直监听输入，即保持标准输入流为开启模式
+            process.stdin.pause();
+            cb(chunk);
+        });
+        console.log('process.argv[2]', process.argv[2]);
+        imgFromUrl(process.argv[2])
+        //console.log('试着在键盘敲几个字然后按回车吧');
+    }
+
+    gets(function(reuslt) {
+        console.log("[" + reuslt + "]");
+        process.stdout.write(reuslt)
+        //process.stdin.emit('end'); //触发end事件
+        // let path = reuslt.split('').splice(0, reuslt.length - 1)
+        // console.log('path', path.join(''));
+        //imgFromUrl()
+
+    });
+    //console.log('1024');
+    //imgFromUrl("http://t66y.com/thread0806.php?fid=16")
+}
+
+// 程序开始的主函数
+__main()

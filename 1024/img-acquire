@@ -1,0 +1,175 @@
+#!/usr/local/bin/node
+// 这一行是套路, 给 node.js 用的
+// 如果没有这一行, 就没办法使用一些 let const 这样的特性
+"use strict"
+
+
+const request = require('request')
+const cheerio = require('cheerio')
+const fs = require('fs')
+
+/*
+本文件需要安装两个基本的库
+request 用于下载网页
+cheerio 用于解析网页数据
+*/
+let downloadNum = 1
+const downloadCovers = function(movies) {
+    try {
+
+        for (let i = 0; i < movies.length; i++) {
+            const m = movies[i]
+            const url = m.coverUrl
+            var myDate = new Date();
+            //以当前时间给下载的图片起名字
+            console.log('url', url);
+            var imgname = myDate.getTime();
+            const path = `${__dirname}/data/img/` + 'img' + imgname + m.coverUrl.slice(-5)
+
+            request({
+                uri: url,
+                encoding: 'binary'
+            }, function(error, response, body) {
+                if (!error && response.statusCode == 200) {
+                    fs.writeFile(path, body, 'binary', function(err) {
+                        if (err) {
+                            console.log(err);
+                        } else {
+                            console.log(`download ${downloadNum++}`);
+                        }
+                    });
+                }
+            });
+
+        }
+    } catch (e) {
+        console.log(e);
+    } finally {
+
+    }
+
+}
+
+const IMG = function() {
+    this.coverUrl = ''
+}
+
+const imgFromDiv = function(div) {
+    // 这个函数来从一个电影 div 里面读取电影信息
+    console.log('imgFromDiv');
+    // 使用 cheerio.load 函数来返回一个可以查询的特殊对象
+    try {
+        const e = cheerio.load(div)
+        var imgs = []
+
+        const pic = e('input')
+
+        for (var i = 0; i < pic.length; i++) {
+            const img = new IMG()
+            //console.log(pic[i].attribs.src);
+            img.coverUrl = pic[i].attribs.src
+            imgs.push(img)
+        }
+
+    } catch (e) {
+
+    } finally {
+
+    }
+
+    downloadCovers(imgs)
+}
+
+const cachedUrl = function(path) {
+    const fs = require('fs')
+    // 先生成对应的文件
+    //const path = options.url.split('/').join('-').split(':').join('-')
+    // 先尝试去硬盘中读取这个 url 对应的文件
+    fs.readFile(path, 'utf-8', function(err, data) {
+        if (err != null) {
+            // 读取这个文件失败
+            // 读不到的话说明是第一次请求，那么就使用 request
+            console.log('error', err);
+        } else {
+            console.log('读取到缓存的页面', path)
+            // 读取到，说明已经下载过了，我们讲直接读取硬盘上的文件
+            const response = {
+                statusCode: 200,
+            }
+            //console.log(JSON.parse(data))
+            let urls = JSON.parse(data)
+            let i = 0
+            console.log(urls[i][1]);
+            var timmer = setInterval(function() {
+                imgFromUrl('http://dz1024.tk/' + urls[i++][1])
+                console.log('i:', i);
+                if (i === urls.length - 1) {
+                    clearInterval(timmer)
+                }
+            }, 1000)
+
+            //imgFromUrl('http://t66y.com/' + urls[i][1])
+            //imgFromUrl('http://t66y.com/htm_data/16/1703/2308207.html')
+
+        }
+    })
+}
+
+const imgFromUrl = function(url) {
+    console.log('imgFromUrl');
+    //console.log(url);
+    // request 从一个 url 下载数据并调用回调函数
+    request(url, function(error, response, body) {
+        // 回调函数的三个参数分别是  错误, 响应, 响应数据
+        // 检查请求是否成功, statusCode 200 是成功的代码
+        console.log('request');
+
+        // require('net')
+        //     .createServer(function(socket) {
+        //         // no nothing
+        //     })
+        //     .listen(21, function() {
+        //         console.log('Socket ON')
+        //     })
+
+        if (error === null && response.statusCode == 200) {
+            // cheerio.load 用字符串作为参数返回一个可以查询的特殊对象
+            // body 就是 html 内容
+            const e = cheerio.load(body)
+            const imgs = []
+            // 查询对象的查询语法和 DOM API 中的 querySelector 一样
+            const img = e('.tpc_content')
+            let element = img[0]
+            // let element = movieDivs[i]
+            //     // 获取 div 的元素并且用 movieFromDiv 解析
+            //     // 然后加入 movies 数组中
+            const div = e(element).html()
+            imgFromDiv(div)
+        } else {
+            console.log('*** ERROR 请求失败 ', error)
+        }
+    })
+
+}
+
+function getStdin() {
+
+}
+
+const __main = function() {
+    fs.readdir(`${__dirname}/data/url`, function(err, files) {
+        if (err) {
+            throw err;
+        }
+        // files是一个数组
+        // 每个元素是此目录下的文件或文件夹的名称
+        console.log('目前可下载的目录有：', files);
+        for (var i = 0; i < files.length; i++) {
+            cachedUrl(`${__dirname}/data/url/${files[i]}`)
+        }
+    });
+    console.log('down all over');
+}
+
+// 程序开始的主函数
+__main()
