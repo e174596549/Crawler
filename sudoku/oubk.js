@@ -14,26 +14,39 @@ cheerio 用于解析网页数据
 */
 
 //根据url爬取数据
-const imgFromUrl = function(url) {
-    //console.log('imgFromUrl');
-    request(url, function(error, response, body) {
+const imgFromUrl = function(options) {
+    console.log('imgFromUrl');
+    request(options, function(error, response, body) {
         // 回调函数的三个参数分别是  错误, 响应, 响应数据
         // 检查请求是否成功, statusCode 200 是成功的代码
-        //console.log('request');
+        console.log('request');
         if (error === null && response.statusCode == 200) {
             // cheerio.load 用字符串作为参数返回一个可以查询的特殊对象
             // body 就是 html 内容
             const e = cheerio.load(body)
             const imgs = []
             // 查询对象的查询语法和 DOM API 中的 querySelector 一样
-            const temp = e('script')
+            //const temp = e('#hid_aw')[0].attribs.value
+            const temp = e('input')
+            //let d = cheerio.load(temp)
+            let newStr = ''
+            for (var i = 0; i < 81; i++) {
+                if (temp[i + 1].attribs.value === '') {
+                    newStr += '0'
+                    //console.log(temp[i + 1].attribs.value);
+                } else {
+                    newStr += temp[i + 1].attribs.value
+                }
+            }
+
             //定位需要数据位置
-            let element = temp[7].children[0].data.split("=")
-            let num = element[2].split(';')[0]
-            num = num.split('').splice(1, num.length - 2).join('')
-            //console.log('得到数据：', num);
-            let nameArr = [9, 0, 5, 1, '000']
-            validate(nameArr[0], nameArr[1], num, '')
+            //let element = temp[7].children[0].data.split("=")
+            //let num = element[2].split(';')[0]
+            //num = num.split('').splice(1, num.length - 2).join('')
+            console.log('得到数据：', newStr);
+            let nameArr = [9, 2, 5, 1, '000']
+            //319254786865179 34272 438659 123651 89749 87423165 451967 23859 364182 76728 95413 148732659
+            validate(nameArr[0], nameArr[1], newStr, '')
             //存储
         } else {
             console.log('*** ERROR 请求失败 ', error)
@@ -48,15 +61,15 @@ function toSave(arr) {
     for (var i = 0; i < arr.length; i++) {
         let n = 0
         //题目文件命名序号
-        n = i + 0
+        n = i + 10
         if (n < 10) {
-            var name = '906100' + n + '.num'
+            var name = '925100' + n + '.num'
         }
         if (n >= 10 && n < 100) {
-            var name = '90610' + n + '.num'
+            var name = '92510' + n + '.num'
         }
         if (n >= 100) {
-            var name = '9061' + n + '.num'
+            var name = '9251' + n + '.num'
         }
         _saveJSON('./data/data9-0/' + name, 'num:' + arr[i].split('').join(' '))
     }
@@ -122,12 +135,19 @@ function validate(space, mold, str, newStr) {
 function __main() {
     //problemArr = new Set()
     problemArr = []
-    let i = 1050
+    let i = 167000
     let timer = setInterval(() => {
-        let url = `http://www.llang.net/sudoku/` + i + '.html'
+        var options = {
+            url: `http://oubk.com/sudoku/${i}.html`,
+            headers: {
+                'Cookie': 'guestId=fdf9c75a-297a-4bdf-8f3a-09d62c2de0db; 239211=1; jiathis_rdc=%7B%22http%3A//www.oubk.com/DailySudoku%22%3A%221125%7C1489977148902%22%7D; ClientTzo=8; _ga=GA1.2.486714366.1489746252',
+                'Host': 'www.oubk.com',
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+            }
+        };
+        imgFromUrl(options)
         i++
-        imgFromUrl('http://oubk.com/')
-        if (problemArr.length >= 1000) {
+        if (problemArr.length >= 390) {
             console.log('可使用数据：', problemArr);
             //var newArr = Array.from(problemArr)
             //console.log('newArr', newArr);
