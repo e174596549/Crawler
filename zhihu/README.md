@@ -1,8 +1,8 @@
 # 知乎前端开发所有精华回答爬虫
 
-![image](https://raw.githubusercontent.com/e174596549/Crawler/master/34.png)
+![image](https://raw.githubusercontent.com/e174596549/Crawler/master/zhihu/34.png)
 
-![image](https://raw.githubusercontent.com/e174596549/Crawler/master/39.png)
+![image](https://raw.githubusercontent.com/e174596549/Crawler/master/zhihu/39.png)
 
 ## 功能
 
