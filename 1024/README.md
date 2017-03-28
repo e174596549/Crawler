@@ -11,3 +11,5 @@
 - 图片会下载在data/img 目录下
 
 - 如果没有VPN的话 可以使用 node img-acquire 命令试玩
+
+- [下载地址](http://pan.baidu.com/s/1o7Gj2PW) 密码：c82l
