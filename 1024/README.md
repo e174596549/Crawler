@@ -9,3 +9,5 @@
 - 运行程序 npm start
 
 - 图片会下载在data/img 目录下
+
+- 如果没有VPN的话 可以使用 node img-acquire 命令试玩
