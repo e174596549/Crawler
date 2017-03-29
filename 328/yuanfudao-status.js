@@ -202,17 +202,7 @@ var result = []
 
 function Course() {
     this.id = ''
-    this.courseName = ''
-    this.kind = ''
-    this.content = ''
-    this.schedule = ''
-    this.classHours = ''
-    this.times = ''
-    this.textbook = ''
-    this.teacher = ''
-    this.price = ''
     this.status = ''
-    this.lessonList = []
 }
 
 const log = function() {
@@ -234,73 +224,11 @@ const courseFromDiv = function(options) {
             // body 就是 html 内容
             const e = cheerio.load(body)
             const a = new Course()
-            const courses = []
-            // 查询对象的查询语法和 DOM API 中的 querySelector 一样
-            const element = e('.basic-info')
-            let kind = element[0].children[0].children[0].attribs.class
-
-            a.kind = kind.split('-')[1]
-            a.courseName = element[0].children[0].children[0].next.data
-
-            let time = element[0].children[1].children[1].data
-            a.schedule = time.split(' ')[0]
-            a.times = time.split(' ')[1]
-            a.textbook = element[0].children[2].children[0].data
-
-            let prices = e('.prices > em')
-            try {
-                a.price = prices[0].children[0].data
-            } catch (e) {
-                console.log(e);
-                return
-            } finally {
-
-            }
-
-
             let commonNum = e('.common-num')
-
-            a.status = commonNum[0].children[0].data + '人购买 ' + commonNum[1].children[0].data + '月' +
-                commonNum[2].children[0].data + '日停售'
-            let text = e('.intro-panel')
-            try {
-                a.content = text[0].children[0].children[8].data
-            } catch (e) {
-                console.log(e);
-                return
-            } finally {
-
-            }
-
+            a.status = commonNum[0].children[0].data
             let id = e('.J_SellBtn')
             a.id = id[0].attribs['data-id']
-            let teacher = e('.teachers')
-            a.teacher = teacher[0].children[0].children[1].children[0].data
-
-            let tbody = e('tbody')
-            //console.log('tbody[0].children[0]', tbody[0].children.length);
-            for (var i = 0; i < tbody[0].children.length; i++) {
-                let name = tbody[0].children[i].children[1].children[0].children[0].data
-                let info = tbody[0].children[i].children[2].children[0].children[0].data
-                a.lessonList += ' ' + info + ' ' + name
-            }
             result.push(a)
-            //console.log(result);
-            //let element = img[0]
-            // let element = movieDivs[i]
-            //     // 获取 div 的元素并且用 movieFromDiv 解析
-            //     // 然后加入 movies 数组中
-            //const div = e(element).html()
-            // 然后就可以使用 querySelector 语法来获取信息了
-            // .text() 获取文本信息
-            //a.author = e('.author-link-line > .author-link').text()
-            // 如果用 text() 则会获取不到回车
-            // 这里要讲一讲爬虫的奥义
-            //a.content = e('.zm-editable-content').html()
-            //
-            //a.link = 'https://zhihu.com' + e('.answer-date-link').attr('href')
-            //a.numberOfComments = e('.toggle-comment').text()
-            // log('***  ', a.content)
         }
     })
 }
@@ -366,8 +294,9 @@ const __main = function() {
         }
         i++
         //console.log(result);
+
         if (i === list.length) {
-            _saveJSON('yuanfudao.json', result)
+            _saveJSON('yuanfudao-status(3月29日17.00).json', result)
             clearInterval(timmer)
         }
     }, 1000)

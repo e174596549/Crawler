@@ -86,10 +86,7 @@ const courseFromDiv = function(options) {
             const lessonList = e('.lesson-name')
             console.log(lessonList[0].children[0].data);
             for (var i = 0; i < lessonList.length; i++) {
-                a.lessonList.push({
-                    time: lessonList[i].attribs.time,
-                    content: lessonList[i].children[0].data
-                })
+                a.lessonList += ' ' + lessonList[i].attribs.time + ' ' + lessonList[i].children[0].data
             }
             result.push(a)
             //let element = img[0]
@@ -163,7 +160,7 @@ const __main = function() {
         }
         try {
             let a = courseFromDiv(options)
-            console.log(a);
+            //console.log(a);
 
         } catch (e) {
 
@@ -171,7 +168,7 @@ const __main = function() {
 
         }
         i++
-        console.log(result);
+        //console.log(result);
         if (i === list.length) {
             _saveJSON('zuoyebang.json', result)
             clearInterval(timmer)
