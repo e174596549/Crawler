@@ -53,7 +53,6 @@ const list = [
     "/lessons/3019786.html",
     "/lessons/3019788.html",
     "/lessons/3019790.html",
-    "/lessons/3022222.html",
     "/lessons/3022220.html",
     "/lessons/3020490.html",
     "/lessons/3020494.html",
@@ -249,24 +248,47 @@ const courseFromDiv = function(options) {
             a.textbook = element[0].children[2].children[0].data
 
             let prices = e('.prices > em')
-            a.price = prices[0].children[0].data
+            try {
+                a.price = prices[0].children[0].data
+            } catch (e) {
+                console.log(e);
+                return
+            } finally {
+
+            }
+
 
             let commonNum = e('.common-num')
 
             a.status = commonNum[0].children[0].data + '人购买 ' + commonNum[1].children[0].data + '月' +
                 commonNum[2].children[0].data + '日停售'
             let text = e('.intro-panel')
-            a.content = text[0].children[0].children[8].data
+            try {
+                a.content = text[0].children[0].children[8].data
+            } catch (e) {
+                console.log(e);
+                return
+            } finally {
+
+            }
+
             let id = e('.J_SellBtn')
             a.id = id[0].attribs['data-id']
             let teacher = e('.teachers')
             a.teacher = teacher[0].children[0].children[1].children[0].data
 
             let tbody = e('tbody')
-            let name = tbody[0].children[0].children[1].children[0].children[0].data
-            let info = tbody[0].children[0].children[2].children[0].children[0].data
-            console.log(name, info)
-            //result.push(a)
+            //console.log('tbody[0].children[0]', tbody[0].children.length);
+            for (var i = 0; i < tbody[0].children.length; i++) {
+                let name = tbody[0].children[i].children[1].children[0].children[0].data
+                let info = tbody[0].children[i].children[2].children[0].children[0].data
+                a.lessonList.push({
+                    time: info,
+                    content: name
+                })
+            }
+            result.push(a)
+            //console.log(result);
             //let element = img[0]
             // let element = movieDivs[i]
             //     // 获取 div 的元素并且用 movieFromDiv 解析
@@ -317,41 +339,41 @@ const __main = function() {
     // 知乎答案
     var i = 0
 
-    //    let timmer = setInterval(() => {
-    console.log('i: ', i);
-    var num = list[i]
-    console.log('list:', num);
-    const url = `https://www.yuanfudao.com${num}`
-    // request 从一个 url 下载数据并调用回调函数
-    // 根据 伪装登录爬虫设置图例 替换 cookie 和 useragent 中的内容
-    // 这里 useragent 我已经替换好了, 替换上你自己的 cookie 就好了
-    //const cookie =
-    const useragent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36'
-    const headers = {
-        //'Cookie': cookie,
-        'User-Agent': useragent,
-    }
+    let timmer = setInterval(() => {
+        console.log('i: ', i);
+        var num = list[i]
+        console.log('list:', num);
+        const url = `https://www.yuanfudao.com${num}`
+        // request 从一个 url 下载数据并调用回调函数
+        // 根据 伪装登录爬虫设置图例 替换 cookie 和 useragent 中的内容
+        // 这里 useragent 我已经替换好了, 替换上你自己的 cookie 就好了
+        //const cookie =
+        const useragent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36'
+        const headers = {
+            //'Cookie': cookie,
+            'User-Agent': useragent,
+        }
 
-    const options = {
-        url: url,
-        headers: headers,
-    }
-    try {
-        courseFromDiv(options)
-        // console.log(a);
+        const options = {
+            url: url,
+            headers: headers,
+        }
+        try {
+            courseFromDiv(options)
+            // console.log(a);
 
-    } catch (e) {
+        } catch (e) {
 
-    } finally {
+        } finally {
 
-    }
-    i++
-    console.log(result);
-    if (i === list.length) {
-        _saveJSON('zuoyebang.json', result)
-        //           clearInterval(timmer)
-    }
-    //  }, 1000)
+        }
+        i++
+        //console.log(result);
+        if (i === list.length) {
+            _saveJSON('yuanfudao.json', result)
+            clearInterval(timmer)
+        }
+    }, 1000)
 
 }
 
