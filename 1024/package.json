@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "cheerio": "^0.22.0",
-    "electron": "^1.6.2",
+    "electron": "^1.6.6",
     "electron-packager": "^8.6.0",
     "electron-prebuilt": "^1.4.13",
     "request": "^2.81.0"
