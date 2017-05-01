@@ -4,6 +4,8 @@
 
 - 自行安装 nodejs、npm
 
+- 全局安装 electron npm install electron -g
+
 - 安装其他依赖环境 npm install
 
 - 运行程序 npm start
