@@ -99,7 +99,7 @@ const cachedUrl = function(path) {
             //console.log(JSON.parse(data))
             let urls = JSON.parse(data)
             let i = 0
-            console.log(urls[i][1]);
+            // console.log(urls[i][1]);
             var timmer = setInterval(function() {
                 imgFromUrl('http://dz1024.tk/' + urls[i++][1])
                 console.log('i:', i);
